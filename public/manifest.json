@@ -1,0 +1,16 @@
+{
+  "name": "ExoticFinishess",
+  "short_name": "EF",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "webapp.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#2196f3",
+  "background_color": "#fcd700",
+  "orientation": "any"
+}
