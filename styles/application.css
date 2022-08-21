@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input-group {
+    margin-bottom: 10px;
+  }
+  .input-field {
+    @apply font-myriadpro;
+    @apply block mb-2 rounded-md border-2 border-gray-500;
+    @apply w-full px-4;
+    @apply box-border;
+  }
+  .input-field:focus {
+    @apply border-black;
+  }
+  input.input-field {
+    @apply h-10;
+  }
+  textarea.input-field {
+    @apply resize-none py-1;
+  }
+
+  .was-validated .input-field:invalid {
+    @apply border-red-600;
+  }
+
+  .was-validated .input-field:invalid + .invalid-feedback {
+    @apply block;
+  }
+
+  .needs-validation .invalid-field,
+  .needs-validation .invalid-feedback {
+    @apply hidden;
+  }
+
+  .was-validated .invalid-field {
+    @apply block;
+  }
+
+  .needs-validation .invalid-feedback {
+    @apply text-sm text-red-600 leading-none;
+  }
+
+}
+
+@layer components {
+  .icon-plus {
+    @apply -translate-x-8 translate-y-8;
+  }
+  @screen md {
+    .icon-plus {
+      @apply -translate-x-24 translate-y-24;
+    }
+  }
+  .is-opened .icon-plus,
+  .icon-plus-float {
+    @apply translate-x-0 translate-y-0;
+  }
+}
+
+@layer components {
+  @keyframes floating {
+    0% {
+      -webkit-transform: translatey(0);
+      transform: translatey(0)
+    }
+
+    50% {
+      -webkit-transform: translatey(-60px);
+      transform: translatey(-60px)
+    }
+
+    100% {
+      -webkit-transform: translatey(0);
+      transform: translatey(0)
+    }
+  }
+
+  .floating {
+    animation: floating 6s ease-in-out infinite;
+  }
+}
