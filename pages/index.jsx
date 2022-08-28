@@ -1,10 +1,8 @@
 import MainLayout from "components/layouts/main";
-import ClientsSection from "components/sections/clients";
 import IntroSection from "components/sections/intro";
-import Head from "next/head";
-import Links from "components/shared/links";
 import ServiceGraphics from "components/shared/service-graphics";
 import VehicleCustomization from "components/shared/vehicle-customization";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
@@ -17,13 +15,9 @@ const HomePage = () => {
 
       <IntroSection />
 
-      <Links />
-
       <ServiceGraphics />
 
       <VehicleCustomization />
-
-      <ClientsSection />
     </MainLayout>
   );
 };
