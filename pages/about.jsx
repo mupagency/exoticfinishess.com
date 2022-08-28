@@ -4,7 +4,7 @@ import AboutSection from "components/sections/about";
 const AboutPage = () => {
   return (
     <MainLayout>
-      <div className="relative grid items-center min-h-[calc(100vh-56px)] bg-primary">
+      <div className="relative grid items-center min-h-[calc(100vh-60px)] bg-primary">
         <div className="relative z-10">
           <AboutSection />
         </div>

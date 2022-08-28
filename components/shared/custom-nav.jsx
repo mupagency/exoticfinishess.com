@@ -15,9 +15,9 @@ export const NavItem = ({ children, title = "", type = "" }) => {
         <h2 className="mb-2 text-white uppercase text-sm md:text-xl lg:text-2xl font-bold text-center px-4">{title}</h2>
         <div className="flex justify-center text-white">
           {type == "xpel" && (
-            <img src="/images/navigation/xpel.png" alt="exoticfinishess Xpel" width="85" height="22" />
+            <img src="/images/navigation/xpel.png" alt="Exotic Finishess Xpel" width="85" height="22" />
           )}
-          {type == "3m" && <img src="/images/navigation/3m.png" alt="exoticfinishess 3M" width="51" height="27" />}
+          {type == "3m" && <img src="/images/navigation/3m.png" alt="Exotic Finishess 3M" width="51" height="27" />}
         </div>
       </div>
     </div>

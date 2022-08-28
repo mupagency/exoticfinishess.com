@@ -4,7 +4,7 @@ import ContactSection from "components/sections/contact";
 const ContactPage = () => {
   return (
     <MainLayout>
-      <div className="relative grid items-center min-h-[calc(100vh-56px)]">
+      <div className="relative grid items-center min-h-[calc(100vh-60px)]">
         <div className="relative z-10">
           <ContactSection />
         </div>
