@@ -18,7 +18,7 @@ Product.Head = Head;
 
 const Title = ({ children }) => {
   return (
-    <h1 className="uppercase font-acuminpro text-current font-black text-3xl lg:text-5xl xl:text-6xl mb-2 md:mb-0 pr-0 lg:pr-8">
+    <h1 className="uppercase font-acuminpro text-current font-black text-3xl lg:text-5xl xl:text-7xl mb-2 md:mb-0 pr-0 lg:pr-8">
       {children}
     </h1>
   );
@@ -26,14 +26,26 @@ const Title = ({ children }) => {
 
 Product.Title = Title;
 
+const Subtitle = ({ children }) => {
+  return <h2 className="text-lg font-bold uppercase mb-4">{children}</h2>;
+};
+
+Product.Subtitle = Subtitle;
+
 const Description = ({ children }) => {
-  return <div className="lg:border-l-2 lg:border-black lg:pl-12 py-4 lg:py-8 text-lg">{children}</div>;
+  return <div className="lg:border-l-2 lg:border-black lg:pl-12 py-4 lg:py-8 text-lg space-y-4">{children}</div>;
 };
 
 Product.Description = Description;
 
+const Parragraph = ({ children }) => {
+  return <p className="text-base md:text-lg max-w-[60ch] mb-4">{children}</p>;
+};
+
+Product.Parragraph = Parragraph;
+
 const Grid = ({ children }) => {
-  return <div className="grid md:grid-cols-2 gap-8 items-center mb-16">{children}</div>;
+  return <div className="grid md:grid-cols-2 gap-4 md:gap-12 lg:gap-28 items-center mb-12 lg:mb-16">{children}</div>;
 };
 
 Product.Grid = Grid;
@@ -49,15 +61,3 @@ const GridItemImg = ({ children }) => {
 };
 
 Product.GridItemImg = GridItemImg;
-
-const Subtitle = ({ children }) => {
-  return <h2 className="text-lg font-bold uppercase mb-6">{children}</h2>;
-};
-
-Product.Subtitle = Subtitle;
-
-const Parragraph = ({ children }) => {
-  return <p className="text-base md:text-lg max-w-[60ch]">{children}</p>;
-};
-
-Product.Parragraph = Parragraph;
