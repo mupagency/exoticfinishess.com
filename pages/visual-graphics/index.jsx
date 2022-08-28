@@ -1,9 +1,10 @@
 import MainLayout from "components/layouts/main";
+import ServiceGraphics from "components/shared/service-graphics";
 
 const VisualGraphicsPage = () => {
   return (
     <MainLayout>
-      <div>VisualGraphicsPage</div>
+      <ServiceGraphics />
     </MainLayout>
   );
 };

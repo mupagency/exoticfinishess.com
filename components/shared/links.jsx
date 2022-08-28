@@ -60,10 +60,10 @@ const links = () => {
             <a>Commercial Vehicle Wraps</a>
           </Link>
         </li>
-        {/* link to sticket-manufacturer */}
+        {/* link to sticker-manufacturer */}
         <li>
-          <Link href="/visual-graphics/sticket-manufacturer/">
-            <a>Sticket Manufacturer</a>
+          <Link href="/visual-graphics/sticker-manufacturer/">
+            <a>sticker Manufacturer</a>
           </Link>
         </li>
         {/* link to window-frost-privacy-film */}

@@ -1,17 +1,6 @@
 import Link from "next/link";
-import { HeadlineGroup } from "./headlines";
-
-const Item = ({ children, title = "" }) => {
-  return (
-    <div className="relative">
-      <div className="relative z-0">{children}</div>
-      <div className="absolute inset-0 bg-stone-900 bg-opacity-60 hover:bg-opacity-0 transition-colors z-0"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
-        <h2 className="text-white uppercase text-2xl font-bold text-center px-4">{title}</h2>
-      </div>
-    </div>
-  );
-};
+import { HeadlineGroup } from "components/shared/headlines";
+import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
 
 const VehicleCustomization = () => {
   return (
@@ -19,45 +8,48 @@ const VehicleCustomization = () => {
       <div className="text-white px-4 py-8 bg-stone-900">
         <HeadlineGroup category="services" title="Vehicle Customization" />
       </div>
-      <nav className="flex justify-center py-12 px-4">
-        <div className="flex rounded-3xl overflow-hidden">
-          <Link href="/visual-graphics/window-wall-graphics/">
-            <a>
-              <Item title="Window Wall Graphics">
-                <img src="/images/navigation/large-format-printing-mural-3m.jpg" alt="" width="348" height="499" />
-              </Item>
-            </a>
-          </Link>
-          <Link href="/visual-graphics/commercial-vehicle-wraps/">
-            <a>
-              <Item title="Commercial Vehicle Wraps">
-                <img src="/images/navigation/large-format-printing-mural-3m.jpg" alt="" width="348" height="499" />
-              </Item>
-            </a>
-          </Link>
-          <Link href="/visual-graphics/sticket-manufacturer/">
-            <a>
-              <Item title="Sticket Manufacturer">
-                <img src="/images/navigation/large-format-printing-mural-3m.jpg" alt="" width="348" height="499" />
-              </Item>
-            </a>
-          </Link>
-          <Link href="/visual-graphics/window-frost-privacy-film/">
-            <a>
-              <Item title="Window Frost Privacy Film">
-                <img src="/images/navigation/large-format-printing-mural-3m.jpg" alt="" width="348" height="499" />
-              </Item>
-            </a>
-          </Link>
-          <Link href="/visual-graphics/solar-window-film/">
-            <a>
-              <Item title="Powder Coat Paint">
-                <img src="/images/navigation/large-format-printing-mural-3m.jpg" alt="" width="348" height="499" />
-              </Item>
-            </a>
-          </Link>
-        </div>
-      </nav>
+      <NavWrap>
+        <Link href="/vehicle-customization/paint-protection-film/">
+          <a>
+            <Item title="Paint Protection Film" type="xpel">
+              <img src="/images/navigation/stealth-ppf-xpel-bmw-m240i.jpg" alt="" width="348" height="499" />
+            </Item>
+          </a>
+        </Link>
+        <Link href="/vehicle-customization/window-tint/">
+          <a>
+            <Item title="Window Tint" type="xpel">
+              <img src="/images/navigation/nano-ceramic-window-tint-xpel.jpg" alt="" width="348" height="499" />
+            </Item>
+          </a>
+        </Link>
+        <Link href="/vehicle-customization/vehicle-wraps/">
+          <a>
+            <Item title="Vehicle Wraps" type="3m">
+              <img src="/images/navigation/color-change-3m-mustang-thumbnail.jpg" alt="" width="348" height="499" />
+            </Item>
+          </a>
+        </Link>
+        <Link href="/vehicle-customization/ceramic/">
+          <a>
+            <Item title="Ceramic" type="xpel">
+              <img
+                src="/images/navigation/ceramic-coating-xpel-fusion-plus-paint-ppf-bmw-thumbnail.jpg"
+                alt=""
+                width="348"
+                height="499"
+              />
+            </Item>
+          </a>
+        </Link>
+        <Link href="/vehicle-customization/powder-coat-paint/">
+          <a>
+            <Item title="Custom details - Powder Coat Paint">
+              <img src="/images/navigation/painted-calipers-mercedes-benz.jpg" alt="" width="348" height="499" />
+            </Item>
+          </a>
+        </Link>
+      </NavWrap>
     </div>
   );
 };

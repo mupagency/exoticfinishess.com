@@ -1,6 +1,6 @@
 import { PlusIcon } from "components/shared/icons";
 import Link from "next/link";
-import Brand from "./shared/brand";
+import Brand from "components/shared/brand";
 
 const Header = () => {
   return (

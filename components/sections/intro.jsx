@@ -1,5 +1,6 @@
 import Brand from "components/shared/brand";
 import Button from "components/shared/button";
+import Link from "next/link";
 
 const IntroSection = () => {
   return (
@@ -19,8 +20,12 @@ const IntroSection = () => {
             <h2 className="mb-4 text-2xl">What would you like to wrap or protect with our custom vinyl skins?</h2>
           </hgroup>
           <div className="mx-auto max-w-5xl flex justify-between pointer-events-auto">
-            <Button> Vinyl graphics & films </Button>
-            <Button> Vehicle customization </Button>
+            <Link href="/visual-graphics/">
+              <Button> Vinyl graphics & films </Button>
+            </Link>
+            <Link href="/vehicle-customization/">
+              <Button> Vehicle customization </Button>
+            </Link>
           </div>
         </div>
 
