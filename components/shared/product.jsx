@@ -45,19 +45,23 @@ const Parragraph = ({ children }) => {
 Product.Parragraph = Parragraph;
 
 const Grid = ({ children }) => {
-  return <div className="grid md:grid-cols-2 gap-4 md:gap-12 lg:gap-28 items-center mb-12 lg:mb-16">{children}</div>;
+  return (
+    <div className="relative product-grid grid md:grid-cols-2 gap-4 md:gap-12 lg:gap-28 items-center mb-12 lg:mb-16">
+      {children}
+    </div>
+  );
 };
 
 Product.Grid = Grid;
 
 const GridItem = ({ children }) => {
-  return <div className="order-1">{children}</div>;
+  return <div className="product-item order-1">{children}</div>;
 };
 
 Product.GridItem = GridItem;
 
 const GridItemImg = ({ children }) => {
-  return <div className="order-2 md:order-1">{children}</div>;
+  return <div className="product-item order-2 md:order-1">{children}</div>;
 };
 
 Product.GridItemImg = GridItemImg;

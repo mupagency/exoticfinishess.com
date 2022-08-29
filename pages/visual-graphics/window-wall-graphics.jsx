@@ -31,9 +31,12 @@ const WindowWallGraphicsPage = () => {
           </Product.GridItem>
           <Product.GridItem>
             <img
-              src="/images/content/window-graphics-large-format-printing-3m.jpg"
+              src="/images/content/wall-graphics-3m-vinyl.jpg"
               alt="Wall graphics with necklace and rings design using 3m vinyl and professionally installed"
               className="max-w-full"
+              loading="lazy"
+              width="732"
+              height="976"
             />
           </Product.GridItem>
         </Product.Grid>
@@ -43,6 +46,9 @@ const WindowWallGraphicsPage = () => {
               src="/images/content/large-format-printing-mural-3m.jpg"
               alt="Large format printing in Miami Design District for murals with 3m high quality vinyl for advertising"
               className="max-w-full"
+              loading="lazy"
+              width="732"
+              height="976"
             />
           </Product.GridItemImg>
           <Product.GridItem>
@@ -73,9 +79,12 @@ const WindowWallGraphicsPage = () => {
           </Product.GridItem>
           <Product.GridItem>
             <img
-              src="/images/content/wall-graphics-3m-vinyl.jpg"
+              src="/images/content/window-graphics-large-format-printing-3m.jpg"
               alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
+              loading="lazy"
               className="max-w-full"
+              width="733"
+              height="550"
             />
           </Product.GridItem>
         </Product.Grid>
