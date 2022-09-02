@@ -21,7 +21,7 @@ const IntroSection = () => {
         <img src="/images/icons/icon-ring-gold.png" alt="floating ring" width={49} height={49} />
       </div>
 
-      <div className="relative min-h-[calc(100vh-60px)] grid place-content-center px-4 z-0 pointer-events-none">
+      <div className="relative min-h-[calc(100vh-60px)] grid place-content-center px-4 z-0">
         <div className="relative mx-auto max-w-6xl z-10">
           <h3 className="text-center mb-12 uppercase">Welcome To</h3>
           <div className="flex justify-center mb-12">
@@ -37,12 +37,16 @@ const IntroSection = () => {
               What would you like to wrap or protect with our custom vinyl skins?
             </h2>
           </hgroup>
-          <div className="mx-auto max-w-5xl flex justify-between">
+          <div className="mx-auto max-w-5xl flex flex-col md:flex-row gap-4 justify-between pointer-events-auto">
             <Link href="/visual-graphics/">
-              <Button> Vinyl graphics & films </Button>
+              <a>
+                <Button> Vinyl graphics & films </Button>
+              </a>
             </Link>
             <Link href="/vehicle-customization/">
-              <Button> Vehicle customization </Button>
+              <a>
+                <Button> Vehicle customization </Button>
+              </a>
             </Link>
           </div>
         </div>

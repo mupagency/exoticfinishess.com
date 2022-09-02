@@ -175,7 +175,7 @@ const ContactSection = () => {
               <div className="invalid-feedback">Message is required</div>
             </div>
             <div className="flex justify-end">
-              <button type="submit" className="bg-primary rounded-full px-8 py-1 text-center  font-normal text-3xl">
+              <button type="submit" className="bg-primary rounded-full px-8 py-1 text-center font-bold text-2xl">
                 Send
               </button>
             </div>
