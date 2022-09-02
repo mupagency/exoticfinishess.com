@@ -153,7 +153,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-wall-graphics/">
                     <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
-                      Window Wall Graphics
+                      Window Wall <br /> Graphics
                       <span></span>
                     </div>
                   </Link>
@@ -161,7 +161,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/commercial-vehicle-wraps/">
                     <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
-                      Commercial Vehicle Wraps
+                      Commercial Vehicle <br /> Wraps
                       <span></span>
                     </div>
                   </Link>
@@ -169,7 +169,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/sticker-manufacturer/">
                     <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
-                      sticker Manufacturer
+                      sticker <br /> Manufacturer
                       <span></span>
                     </div>
                   </Link>
@@ -177,7 +177,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-frost-privacy-film/">
                     <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
-                      Window Frost Privacy Film
+                      Window Frost <br /> Privacy Film
                       <span></span>
                     </div>
                   </Link>
@@ -185,7 +185,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/solar-window-film/">
                     <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
-                      Solar Window Film
+                      Solar Window <br /> Film
                       <span></span>
                     </div>
                   </Link>
