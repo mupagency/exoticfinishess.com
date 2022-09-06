@@ -6,7 +6,20 @@ const IntroSection = () => {
   return (
     <div className="bg-black text-white relative">
       <div className="absolute inset-0 z-0">
-        <img src="/images/home.jpg" alt="" className="w-full h-full object-cover object-center" />
+        <div className="absolute left-0 h-full w-1/2 overflow-hidden">
+          <img
+            src="/images/large-format-printing-mural-3m.jpg"
+            alt=""
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+        <div className="absolute right-0 h-full w-1/2 overflow-hidden">
+          <img
+            src="/images/vehicle-customization-bmw-3d-model.jpg"
+            alt=""
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
       </div>
 
       <div className="absolute inset-0 grid grid-cols-2 z-0">
