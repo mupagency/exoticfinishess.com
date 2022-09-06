@@ -18,13 +18,13 @@ const CommercialVehicleWrapsPage = () => {
             </Product.Description>
           </div>
         </Product.Head>
-        <div className="mb-8 mt-8">
+        <div className="mb-8 mt-8 product-media">
           <img
             src="/images/content/commercial-car-wrap-design-mercedes-benz-van.jpg"
             alt="Commercial car wrap for Zurikate using 3m IJ180 vinyl and custom design"
           />
         </div>
-        <div className="mb-12">
+        <div className="mb-12 product-media">
           <img
             src="/images/content/commercial-car-wraps-trailer-3m-vinyl.jpg"
             alt="Commercial car wrap for trailer with custom design and installed with 3m vinyl"

@@ -82,7 +82,7 @@ const PaintProtectionFilmPage = () => {
             </Product.Parragraph>
           </Product.GridItem>
         </Product.Grid>
-        <div className="mb-8">
+        <div className="mb-8 product-media">
           <img
             src="/images/content/lamborghini-paint-protection-film-ultimate-fusion-gloss-with-ceramic-xpel.jpg"
             alt="Lamborghini with XPEL ultimate fusion plus in gloss with ceramic paint protection film"

@@ -12,17 +12,23 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
         />
-        <meta property="og:title" content="" />
+        <meta property="og:title" content="Vinyl graphics and films - Vehicle customization" />
         <meta property="og:image" content="" />
-        <meta property="og:description" content="" />
+        <meta
+          property="og:description"
+          content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
+        />
         <meta property="og:url" content="" />
         <meta property="og:type" content="" />
 
         <meta name="twitter:card" content="" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
-        <meta name="twitter:title" content="Exotic Finishess" />
-        <meta name="twitter:description" content="Vinyl graphics and films - Vehicle customization" />
+        <meta name="twitter:title" content="Vinyl graphics and films - Vehicle customization" />
+        <meta
+          name="twitter:description"
+          content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
+        />
         <meta name="twitter:url" content="" />
         <meta name="twitter:image" content="" />
         <meta name="twitter:image:alt" content="Vinyl graphics and films - Vehicle customization" />

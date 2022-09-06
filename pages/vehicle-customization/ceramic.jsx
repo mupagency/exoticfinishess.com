@@ -28,41 +28,41 @@ const CeramicPage = () => {
             </Product.Description>
           </div>
         </Product.Head>
-        <div className="mb-8">
+        <div className="mb-8 product-media">
           <img
             src="/images/content/ceramic-coating-xpel-fusion-plus-paint-ppf-bmw-thumbnail.jpg"
             alt="Xepl fusion plus ceramic coating being applied with a sponge on stealth paint protection film on a 2022 BMW m240i."
           />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 mb-12">
-          <div className="order-1">
+          <div className="order-1 product-media">
             <img
               src="/images/content/xpel-fusion-plus-ceramic-coating-plastic-trim-install.jpg"
               alt="Xpel fusion plus ceramic coating application on plastic trim with sponge."
             />
           </div>
-          <div className="order-last md:order-1">
+          <div className="order-last md:order-1 product-media">
             <img src="/images/content/fusion-ceramic-coating.png" alt="Fusion Ceramic Coating" />
           </div>
-          <div className="order-1">
+          <div className="order-1 product-media">
             <img
               src="/images/content/xpel-fusion-plus-ceramic-coating-wheel-caliper-install.jpg"
               alt="Xpel fusion plus ceramic coating application on wheels and calipers with sponge."
             />
           </div>
-          <div className="order-1">
+          <div className="order-1 product-media">
             <img
               src="/images/content/xpel-fusion-plus-ceramic-coating-paint-ppf-install.jpg"
               alt="Xpel fusion plus ceramic coating application on a car's body paint with sponge."
             />
           </div>
-          <div className="order-1">
+          <div className="order-1 product-media">
             <img
               src="/images/content/xpel-fusion-plus-ceramic-coating-glass-install.jpg"
               alt="Xpel fusion plus ceramic coating application on glass with sponge."
             />
           </div>
-          <div className="order-1">
+          <div className="order-1 product-media">
             <img
               src="/images/content/xpel-fusion-plus-ceramic-coating-interior-install.jpg"
               alt="Xpel fusion plus ceramic coating application on leather seats with microfiber cloth."

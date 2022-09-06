@@ -112,8 +112,12 @@ const ContactSection = () => {
                 <a href="tel:3057679095">305 767 - 9095</a>
               </li>
               <li className="flex justify-center md:justify-start gap-4 mt-6">
-                <InstagramIcon />
-                <FacebookIcon />
+                <a href="https://www.instagram.com/exoticfinishess/" target="_blank" rel="noreferrer">
+                  <InstagramIcon />
+                </a>
+                <a href="https://www.facebook.com/exoricfinishess" target="_blank" rel="noreferrer">
+                  <FacebookIcon />
+                </a>
               </li>
             </ul>
           </div>

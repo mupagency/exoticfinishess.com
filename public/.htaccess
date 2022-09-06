@@ -1,0 +1,60 @@
+
+# Apache Server Configs v2.14.0 | MIT License
+# https://github.com/h5bp/server-configs-apache
+
+# RewriteEngine On
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [R,L]
+
+options -Indexes
+
+<Files .env>
+	Order allow,deny
+	Deny from all
+</Files>
+
+# setting the `Cache-Control
+
+<IfModule mod_headers.c>
+
+	# Week
+    <FilesMatch "\.(eot|svg|ttf|woff|woff2)$">
+       Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
+    # Week
+    <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+       Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
+    # 2 Hours
+    <FilesMatch "\.(js|css|swf)$">
+        Header set Cache-Control "max-age=7200"
+    </FilesMatch>
+</IfModule>
+
+# Compress all output labeled with one of the following media types.
+
+<IfModule mod_deflate.c>
+	<IfModule mod_filter.c>
+		AddOutputFilterByType	DEFLATE "application/javascript" \
+										"application/font-woff2" \
+										"application/json" \
+										"application/x-font-ttf" \
+										"application/x-font-woff" \
+										"application/x-javascript" \
+										"application/xml" \
+										"font/eot" \
+										"font/opentype" \
+										"image/bmp" \
+										"image/svg+xml" \
+										"image/x-icon" \
+										"text/cache-manifest" \
+										"text/css" \
+										"text/html" \
+										"text/javascript" \
+										"text/plain" \
+										"text/xml"
+
+	</IfModule>
+</IfModule>
