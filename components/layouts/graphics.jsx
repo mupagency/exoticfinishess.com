@@ -23,3 +23,17 @@ const GraphicLayout = ({ children }) => {
 };
 
 export default GraphicLayout;
+
+export const GraphicLayoutCompact = ({ children }) => {
+  useAnimations();
+
+  return (
+    <>
+      <Header />
+      <main>
+        {children}
+        <ContactSection />
+      </main>
+    </>
+  );
+};

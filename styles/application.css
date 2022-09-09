@@ -81,4 +81,8 @@
   .floating {
     animation: floating 6s ease-in-out infinite;
   }
+
+  .delay-200 {
+    animation-delay: -2s;
+  }
 }

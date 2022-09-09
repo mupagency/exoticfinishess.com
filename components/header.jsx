@@ -14,6 +14,7 @@ const Header = () => {
 
   const router = useRouter();
   const { pathname = "" } = router;
+  console.log(pathname);
   const isHome = pathname === "/";
 
   const handleNavType = (t) => {
@@ -60,13 +61,19 @@ const Header = () => {
             {showNav == false && (
               <div className="flex-1 hidden lg:flex justify-center items-center mx-auto">
                 <ul className="flex gap-4 text-white text-center">
-                  <li className="cursor-pointer" onClick={() => handleNavType(VISUAL)}>
-                    <h3 className="text-xl hover:text-primary leading-none uppercase px-4 py-5">
+                  <li
+                    onClick={() => handleNavType(VISUAL)}
+                    className={`${pathname.startsWith("/visual-graphics") && "text-primary"}`}
+                  >
+                    <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
                       Vinyl Graphics & Films
                     </h3>
                   </li>
-                  <li className="cursor-pointer" onClick={() => handleNavType(VEHICLE)}>
-                    <h3 className="text-xl hover:text-primary leading-none uppercase px-4 py-5">
+                  <li
+                    onClick={() => handleNavType(VEHICLE)}
+                    className={`${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
+                  >
+                    <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
                       Vehicle Customization
                     </h3>
                   </li>
@@ -85,12 +92,18 @@ const Header = () => {
 
         {showNav == false && (
           <div className="text-center bg-black text-white flex justify-evenly lg:hidden">
-            <div onClick={() => handleNavType(VISUAL)}>
+            <div
+              onClick={() => handleNavType(VISUAL)}
+              className={`${pathname.startsWith("/visual-graphics") && "text-primary"}`}
+            >
               <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
                 Vinyl Graphics & Films
               </h3>
             </div>
-            <div onClick={() => handleNavType(VEHICLE)}>
+            <div
+              onClick={() => handleNavType(VEHICLE)}
+              className={`${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
+            >
               <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
                 Vehicle Customization
               </h3>
@@ -100,11 +113,11 @@ const Header = () => {
 
         {isHome && navType == VISUAL && (
           <nav className="absolute top-full left-0 right-0 bg-neutral-900 bg-opacity-80 md:rounded-b-2xl">
-            <div className="container overflow-x-auto touch-pan-x whitespace-nowrap px-8">
+            <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8">
               <ul className="text-center leading-none text-white uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-wall-graphics/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Window Wall Graphics
                       <span></span>
                     </div>
@@ -112,7 +125,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/commercial-vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Commercial Vehicle Wraps
                       <span></span>
                     </div>
@@ -120,7 +133,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/sticker-manufacturer/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       sticker Manufacturer
                       <span></span>
                     </div>
@@ -128,7 +141,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-frost-privacy-film/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Window Frost Privacy Film
                       <span></span>
                     </div>
@@ -136,7 +149,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/solar-window-film/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Solar Window Film
                       <span></span>
                     </div>
@@ -148,11 +161,11 @@ const Header = () => {
         )}
         {!isHome && navType == VISUAL && (
           <nav className="relative bg-white">
-            <div className="container overflow-x-auto touch-pan-x whitespace-nowrap px-8 border-b border-neutral-400">
+            <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8 border-b border-neutral-400">
               <ul className="text-center leading-none text-neutral-400 uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-wall-graphics/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Window Wall <br /> Graphics
                       <span></span>
                     </div>
@@ -160,7 +173,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/commercial-vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Commercial Vehicle <br /> Wraps
                       <span></span>
                     </div>
@@ -168,7 +181,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/sticker-manufacturer/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       sticker <br /> Manufacturer
                       <span></span>
                     </div>
@@ -176,7 +189,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-frost-privacy-film/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Window Frost <br /> Privacy Film
                       <span></span>
                     </div>
@@ -184,7 +197,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/solar-window-film/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Solar Window <br /> Film
                       <span></span>
                     </div>
@@ -197,11 +210,11 @@ const Header = () => {
 
         {isHome && navType == VEHICLE && (
           <nav className="absolute top-full left-0 right-0 bg-neutral-900 bg-opacity-80 md:rounded-b-2xl">
-            <div className="container overflow-x-auto touch-pan-x whitespace-nowrap px-8">
+            <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8">
               <ul className="text-center leading-none text-white uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/paint-protection-film/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Paint Protection Film
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -211,7 +224,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Window Tint
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -221,7 +234,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Vehicle Wraps
                       <div className="flex justify-center w-5 mx-auto">
                         <MIcon />
@@ -231,7 +244,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/ceramic/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Ceramic
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -241,7 +254,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/powder-coat-paint/">
-                    <div className="p-3 lg:p-4 hover:text-primary cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Custom details - Powder <br /> Coat Paint
                       <span></span>
                     </div>
@@ -253,11 +266,11 @@ const Header = () => {
         )}
         {!isHome && navType == VEHICLE && (
           <nav className="relative bg-white">
-            <div className="container overflow-x-auto touch-pan-x whitespace-nowrap px-8 border-b border-neutral-400">
+            <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8 border-b border-neutral-400">
               <ul className="text-center leading-none text-neutral-400 uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/paint-protection-film/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Paint Protection Film
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -267,7 +280,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Window Tint
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -277,7 +290,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Vehicle Wraps
                       <div className="flex justify-center w-5 mx-auto">
                         <MIcon />
@@ -287,7 +300,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/ceramic/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Ceramic
                       <div className="flex justify-center w-10 mx-auto">
                         <XpelIcon />
@@ -297,7 +310,7 @@ const Header = () => {
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/powder-coat-paint/">
-                    <div className="p-3 lg:p-4 hover:text-black cursor-pointer">
+                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                       Custom details - Powder <br /> Coat Paint
                       <span></span>
                     </div>
@@ -337,7 +350,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="cursor-pointer">
-                    <Link href="/pdf/Privacy-policy.pdf">
+                    <Link href="/pdf/Privacy-Policy.pdf">
                       <a target="_blank">
                         <h4 className="text-base md:text-2xl hover:underline mb-2">Privacy Policy</h4>
                       </a>

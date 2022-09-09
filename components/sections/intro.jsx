@@ -27,17 +27,17 @@ const IntroSection = () => {
         <div className="bg-black bg-opacity-80 hover:bg-opacity-10 transition-colors"></div>
       </div>
 
-      <div className="absolute top-3/4 left-12 md:left-48 floating z-0 pointer-events-none">
+      <div className="absolute top-1/2 md:top-3/4 left-6 md:left-48 floating z-0 pointer-events-none">
         <img src="/images/icons/icon-ring-gold.png" alt="floating ring" width={49} height={49} />
       </div>
-      <div className="absolute top-1/4 right-12 md:right-48 floating z-0 pointer-events-none">
+      <div className="absolute top-1/4 right-6 md:right-48 floating delay-200 z-0 pointer-events-none">
         <img src="/images/icons/icon-ring-gold.png" alt="floating ring" width={49} height={49} />
       </div>
 
-      <div className="relative min-h-[calc(100vh-60px)] grid place-content-center px-4 z-0">
+      <div className="relative md:min-h-[calc(100vh-60px)] grid place-content-center px-4 z-0">
         <div className="relative mx-auto max-w-6xl z-10">
-          <h3 className="text-center mb-12 uppercase">Welcome To</h3>
-          <div className="flex justify-center mb-12">
+          <h3 className="text-center my-6 md:mb-12 uppercase">Welcome To</h3>
+          <div className="flex justify-center mb-6 md:mb-12">
             <div className="w-24 md:w-auto">
               <Brand />
             </div>
@@ -50,7 +50,7 @@ const IntroSection = () => {
               What would you like to wrap or protect with our custom vinyl skins?
             </h2>
           </hgroup>
-          <div className="mx-auto max-w-5xl flex flex-col md:flex-row gap-4 justify-between pointer-events-auto">
+          <div className="mx-auto max-w-5xl flex flex-col md:flex-row gap-4 justify-between pointer-events-auto mb-16">
             <Link href="/visual-graphics/">
               <a>
                 <Button> Vinyl graphics & films </Button>

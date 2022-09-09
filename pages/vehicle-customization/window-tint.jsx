@@ -32,7 +32,7 @@ const WindowTintPage = () => {
             alt="Window tint for a 2022 Tesla Model Y with XR plus nano-ceramic film"
           />
         </div>
-        <h2 className="font-acuminpro text-3xl lg:text-5xl uppercase text-center mb-12 px-4">We Carry:</h2>
+        <h2 className="font-acuminpro text-3xl uppercase text-center mb-12 px-4">We Carry:</h2>
         <div className="mb-20 product-media">
           <img src="/images/content/prime-xr.png" alt="Prime XR automotive window film" className="mx-auto" />
         </div>

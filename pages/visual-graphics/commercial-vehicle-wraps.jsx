@@ -12,8 +12,9 @@ const CommercialVehicleWrapsPage = () => {
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M
-                vinyl for the highest quality and can last long periods of time.
+                Vehicle marketing solution for your business. To ensure quality and accuracy we design, print, install
+                and remove. We do graphics for cars, vans, trucks, SUVs, boats, and planes. Fleet vehicle wraps increase
+                advertising opportunity, promote brand consistency, and lend legitimacy to a business.
               </p>
             </Product.Description>
           </div>

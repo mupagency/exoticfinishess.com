@@ -88,7 +88,7 @@ const PaintProtectionFilmPage = () => {
             alt="Lamborghini with XPEL ultimate fusion plus in gloss with ceramic paint protection film"
           />
         </div>
-        <h2 className="font-acuminpro text-3xl lg:text-5xl uppercase text-center mb-8 px-4">
+        <h2 className="font-acuminpro text-3xl uppercase text-center mb-8 px-4">
           PPF XPEL SMOKED HEAD LIGHT
         </h2>
         <Product.Grid>
