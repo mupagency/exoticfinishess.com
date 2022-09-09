@@ -18,7 +18,7 @@ Product.Head = Head;
 
 const Title = ({ children }) => {
   return (
-    <h1 className="break-words uppercase font-acuminpro text-current font-black text-3xl xl:text-7xl mb-2 md:mb-0 pr-0 lg:pr-8">
+    <h1 className="break-words uppercase font-acuminpro text-current font-black text-3xl xl:text-5xl mb-2 md:mb-0 pr-0 lg:pr-8">
       {children}
     </h1>
   );

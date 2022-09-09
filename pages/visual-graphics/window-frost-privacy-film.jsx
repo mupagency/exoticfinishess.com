@@ -7,7 +7,9 @@ const WindowFrostPrivacyFilmPage = () => {
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Window Frost Privacy Film</Product.Title>
+            <Product.Title>
+              Window Frost <br /> Privacy Film
+            </Product.Title>
           </div>
           <div>
             <Product.Description>

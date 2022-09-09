@@ -8,7 +8,7 @@ const WindowWallGraphicsPage = () => {
         <Product.Head>
           <div>
             <Product.Title>
-              Window <br /> & Wall <br /> graphics
+              Window <br /> Wall <br /> graphics
             </Product.Title>
           </div>
           <div>

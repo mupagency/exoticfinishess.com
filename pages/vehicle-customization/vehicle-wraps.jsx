@@ -8,7 +8,7 @@ const VehicleWrapsPage = () => {
         <Product.Head>
           <div>
             <Product.Title>
-              Window <br /> Wraps
+              Vehicle <br /> Wraps
               <span className="inline-block align-middle pl-4">
                 <img src="/images/3m.png" alt="ExoticFinishes 3M" width="64" height="34" />
               </span>

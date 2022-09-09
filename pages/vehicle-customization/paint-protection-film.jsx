@@ -8,7 +8,7 @@ const PaintProtectionFilmPage = () => {
         <Product.Head>
           <div>
             <Product.Title>
-              Paint Protection Film
+              Paint Protection <br /> Film
               <span className="inline-block align-middle">
                 <img src="/images/xpel.png" alt="ExoticFinishes Xpel" width="103" height="27" />
               </span>
@@ -88,9 +88,7 @@ const PaintProtectionFilmPage = () => {
             alt="Lamborghini with XPEL ultimate fusion plus in gloss with ceramic paint protection film"
           />
         </div>
-        <h2 className="font-acuminpro text-3xl uppercase text-center mb-8 px-4">
-          PPF XPEL SMOKED HEAD LIGHT
-        </h2>
+        <h2 className="font-acuminpro text-3xl uppercase text-center mb-8 px-4">PPF XPEL SMOKED HEAD LIGHT</h2>
         <Product.Grid>
           <Product.GridItem>
             <img

@@ -63,19 +63,25 @@ const Header = () => {
                 <ul className="flex gap-4 text-white text-center">
                   <li
                     onClick={() => handleNavType(VISUAL)}
-                    className={`${pathname.startsWith("/visual-graphics") && "text-primary"}`}
+                    className={`relative ${pathname.startsWith("/visual-graphics") && "text-primary"}`}
                   >
                     <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
                       Vinyl Graphics & Films
                     </h3>
+                    {pathname.startsWith("/visual-graphics") && (
+                      <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
+                    )}
                   </li>
                   <li
                     onClick={() => handleNavType(VEHICLE)}
-                    className={`${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
+                    className={`relative ${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
                   >
                     <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
                       Vehicle Customization
                     </h3>
+                    {pathname.startsWith("/vehicle-customization") && (
+                      <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
+                    )}
                   </li>
                 </ul>
               </div>
@@ -118,7 +124,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-wall-graphics/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Window Wall Graphics
+                      Window & Wall Graphics
                       <span></span>
                     </div>
                   </Link>
@@ -167,7 +173,7 @@ const Header = () => {
                   <Link href="/visual-graphics/window-wall-graphics/">
                     <div className={`${pathname.includes("window-wall-graphics") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Window Wall <br /> Graphics
+                        Window & Wall <br /> Graphics
                         <span></span>
                       </div>
                     </div>
