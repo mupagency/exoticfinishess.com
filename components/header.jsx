@@ -165,41 +165,51 @@ const Header = () => {
               <ul className="text-center leading-none text-neutral-400 uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-wall-graphics/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Window Wall <br /> Graphics
-                      <span></span>
+                    <div className={`${pathname.includes("window-wall-graphics") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Window Wall <br /> Graphics
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/commercial-vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Commercial Vehicle <br /> Wraps
-                      <span></span>
+                    <div className={`${pathname.includes("commercial-vehicle-wraps") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Commercial Vehicle <br /> Wraps
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/sticker-manufacturer/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      sticker <br /> Manufacturer
-                      <span></span>
+                    <div className={`${pathname.includes("sticker-manufacturer") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        sticker <br /> Manufacturer
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/window-frost-privacy-film/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Window Frost <br /> Privacy Film
-                      <span></span>
+                    <div className={`${pathname.includes("window-frost-privacy-film") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Window Frost <br /> Privacy Film
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/solar-window-film/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Solar Window <br /> Film
-                      <span></span>
+                    <div className={`${pathname.includes("solar-window-film") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Solar Window <br /> Film
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
@@ -270,49 +280,59 @@ const Header = () => {
               <ul className="text-center leading-none text-neutral-400 uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/paint-protection-film/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Paint Protection Film
-                      <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
+                    <div className={`${pathname.includes("paint-protection-film") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Paint Protection Film
+                        <div className="flex justify-center w-10 mx-auto">
+                          <XpelIcon />
+                        </div>
                       </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Window Tint
-                      <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
+                    <div className={`${pathname.includes("window-tint") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Window Tint
+                        <div className="flex justify-center w-10 mx-auto">
+                          <XpelIcon />
+                        </div>
                       </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Vehicle Wraps
-                      <div className="flex justify-center w-5 mx-auto">
-                        <MIcon />
+                    <div className={`${pathname.includes("vehicle-wraps") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Vehicle Wraps
+                        <div className="flex justify-center w-5 mx-auto">
+                          <MIcon />
+                        </div>
                       </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/ceramic/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Ceramic
-                      <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
+                    <div className={`${pathname.includes("ceramic") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Ceramic
+                        <div className="flex justify-center w-10 mx-auto">
+                          <XpelIcon />
+                        </div>
                       </div>
                     </div>
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/powder-coat-paint/">
-                    <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                      Custom details - Powder <br /> Coat Paint
-                      <span></span>
+                    <div className={`${pathname.includes("powder-coat-paint") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Custom details - Powder <br /> Coat Paint
+                        <span></span>
+                      </div>
                     </div>
                   </Link>
                 </li>
