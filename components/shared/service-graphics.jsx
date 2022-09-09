@@ -5,7 +5,7 @@ import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
 const ServiceGraphics = () => {
   return (
     <div>
-      <div className="text-white px-4 py-8 bg-stone-900">
+      <div className="text-white px-4 py-6 bg-stone-900">
         <HeadlineGroup category="services" title="VINYL GRAPHICS & FILMS" />
       </div>
       <NavWrap>
