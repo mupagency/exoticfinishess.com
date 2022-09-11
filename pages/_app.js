@@ -1,12 +1,21 @@
 import "styles/application.css";
 import Script from "next/script";
 import Head from "next/head";
+import { useRouter } from "next/router";
+
+const DOMAIN = process.env.NEXT_PUBLIC_APP_DOMAIN;
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const { pathname } = router;
+
+  const canonical_url = pathname == "/" ? `${DOMAIN}${pathname}` : `${DOMAIN}${pathname}/`;
+
   return (
     <>
       <Head>
         <title>Vinyl graphics and films - Vehicle customization</title>
+        <link rel="canonical" href={canonical_url} />
         <meta name="author" content="Exotic Finishess" />
         <meta
           name="description"
@@ -18,10 +27,10 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
         />
-        <meta property="og:url" content="" />
-        <meta property="og:type" content="" />
+        <meta property="og:url" content={canonical_url} />
+        <meta property="og:type" content="website" />
 
-        <meta name="twitter:card" content="" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
         <meta name="twitter:title" content="Vinyl graphics and films - Vehicle customization" />
@@ -29,7 +38,7 @@ function MyApp({ Component, pageProps }) {
           name="twitter:description"
           content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
         />
-        <meta name="twitter:url" content="" />
+        <meta name="twitter:url" content={canonical_url} />
         <meta name="twitter:image" content="" />
         <meta name="twitter:image:alt" content="Vinyl graphics and films - Vehicle customization" />
 

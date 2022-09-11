@@ -14,7 +14,6 @@ const Header = () => {
 
   const router = useRouter();
   const { pathname = "" } = router;
-  console.log(pathname);
   const isHome = pathname === "/";
 
   const handleNavType = (t) => {
