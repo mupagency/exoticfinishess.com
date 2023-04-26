@@ -12,25 +12,38 @@ const StickerManufacturerPage = () => {
           <div>
             <Product.Description>
               <p>
-                As many as you need, we are able to print stickers from any artwork, picture or logo. Fast turn around
-                times and high quality vinyl. Waterproof, UV resistant and don&apos;t fade!
+                Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M
+                vinyl for the highest quality and can last long periods of time.
               </p>
             </Product.Description>
+           <Product.GridItem>
+            <img
+              src="/images/content/window-graphics-large-format-printing-3m.jpg"
+              alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
+              loading="lazy"
+              className="max-w-full"
+              width="600"
+              height="450"
+            />
+          </Product.GridItem>
+
           </div>
+
         </Product.Head>
+
         <Product.Grid>
           <Product.GridItem>
-            <img
-              src="/images/content/stickers-manufacturer-decals-3m.jpg"
-              alt="Stickers in silver using 3m vinyl. Decals in different designs"
-            />
+            <Product.Subtitle>Window graphics</Product.Subtitle>
+            <Product.Parragraph>
+              From logos to grand openings, window graphics personalize your space to meet your goals and objectives.
+              Increase brand awareness with branded masterpieces.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              We offer in house design, print and installation and service all United States. We use the best of vinyl
+              graphics with our exotic laminations between glossy, matte, sparkle, textures and more.
+            </Product.Parragraph>
           </Product.GridItem>
-          <Product.GridItem>
-            <img
-              src="/images/content/stickers-manufacturer-decals.jpg"
-              alt="Stickers in silver using 3m vinyl. Decals in different designs"
-            />
-          </Product.GridItem>
+
         </Product.Grid>
       </div>
     </GraphicLayout>
