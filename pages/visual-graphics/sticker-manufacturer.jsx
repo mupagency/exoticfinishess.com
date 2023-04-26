@@ -7,7 +7,7 @@ const StickerManufacturerPage = () => {
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Sticker Manufacturer</Product.Title>
+            <Product.Title>Wall Graphics</Product.Title>
           </div>
           <div>
             <Product.Description>
@@ -33,10 +33,12 @@ const StickerManufacturerPage = () => {
 
         <Product.Grid>
           <Product.GridItem>
-            <Product.Subtitle>Window graphics</Product.Subtitle>
+            <Product.Subtitle>Wall Graphics</Product.Subtitle>
             <Product.Parragraph>
-              From logos to grand openings, window graphics personalize your space to meet your goals and objectives.
-              Increase brand awareness with branded masterpieces.
+              Bring life to any room or office with our custom wall decals and graphics. Vinyl
+              can be applied to walls with any texture like, concrete, Sheetrock, wood,
+              aluminum ect. We use 3M vinyl for the highest quality and can last long periods
+              of time
             </Product.Parragraph>
             <Product.Parragraph>
               We offer in house design, print and installation and service all United States. We use the best of vinyl
