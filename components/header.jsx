@@ -167,7 +167,7 @@ const Header = () => {
                   <Link href="/visual-graphics/sticker-manufacturer/">
                     <div className={`${pathname.includes("sticker-manufacturer") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Wall <br /> Graphics
+                        Sticker <br /> Manufacturer
                         <span></span>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ const Header = () => {
                   <Link href="/visual-graphics/solar-window-film/">
                     <div className={`${pathname.includes("solar-window-film") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Solar Window <br /> Film
+                        Wall <br /> Graphics
                         <span></span>
                       </div>
                     </div>
