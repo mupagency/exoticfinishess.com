@@ -18,7 +18,9 @@ const WindowWallGraphicsPage = () => {
                 vinyl for the highest quality and can last long periods of time.
               </p>
             </Product.Description>
-              <Product.GridItem>
+
+          </div>
+                  <Product.GridItem>
             <img
               src="/images/content/window-graphics-large-format-printing-3m.jpg"
               alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
@@ -28,7 +30,6 @@ const WindowWallGraphicsPage = () => {
               height="550"
             />
           </Product.GridItem>
-          </div>
         </Product.Head>
 
         <Product.Grid>
