@@ -28,11 +28,6 @@ const WindowWallGraphicsPage = () => {
               height="450"
             />
           </Product.GridItem>
-
-          </div>
-
-        </Product.Head>
-
         <Product.Grid>
           <Product.GridItem>
             <Product.Subtitle>Window graphics</Product.Subtitle>
@@ -45,6 +40,11 @@ const WindowWallGraphicsPage = () => {
               graphics with our exotic laminations between glossy, matte, sparkle, textures and more.
             </Product.Parragraph>
           </Product.GridItem>
+
+          </div>
+
+        </Product.Head>
+
 
         </Product.Grid>
       </div>
