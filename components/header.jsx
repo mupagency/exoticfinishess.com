@@ -156,7 +156,7 @@ const Header = () => {
                   <Link href="/visual-graphics/window-wall-graphics/">
                     <div className={`${pathname.includes("window-wall-graphics") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Window & Wall <br /> Graphics
+                        Window <br /> Graphics
                         <span></span>
                       </div>
                     </div>
