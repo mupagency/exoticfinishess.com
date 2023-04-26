@@ -160,7 +160,7 @@ const ContactSection = () => {
                 onChange={(event) => setSubject(event.target.value)}
                 name="subject"
                 id="subject"
-                placeholder="Subject"
+                placeholder="Contact number"
                 required
               />
               <div className="invalid-feedback">Subject is required</div>
