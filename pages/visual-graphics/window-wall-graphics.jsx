@@ -29,7 +29,12 @@ const WindowWallGraphicsPage = () => {
             />
           </Product.GridItem>
        
-          <Product.GridItem>
+  
+         
+
+          </div>
+     <Product.Grid>
+            <Product.GridItem>
             <Product.Subtitle>Window graphics</Product.Subtitle>
             <Product.Parragraph>
               From logos to grand openings, window graphics personalize your space to meet your goals and objectives.
@@ -39,14 +44,10 @@ const WindowWallGraphicsPage = () => {
               We offer in house design, print and installation and service all United States. We use the best of vinyl
               graphics with our exotic laminations between glossy, matte, sparkle, textures and more.
             </Product.Parragraph>
-         </Product.Grid>
-
-          </div>
-     <Product.Grid>
      </Product.GridItem>
         </Product.Head>
 
-
+      </Product.Grid>
         
       </div>
     </GraphicLayoutCompact>
