@@ -7,7 +7,9 @@ const StickerManufacturerPage = () => {
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Wall <br> Graphics</Product.Title>
+            <Product.Title>
+            Wall <br /> Graphics
+            </Product.Title>
           </div>
           <div>
             <Product.Description>
