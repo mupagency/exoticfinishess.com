@@ -39,13 +39,13 @@ const StickerManufacturerPage = () => {
 
         </Product.Grid>
           </div>
-<Product.Description>
+    
+        <Product.Description>
               <p>
                 Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M
                 vinyl for the highest quality and can last long periods of time.
               </p>
-            </Product.Description>
-           <Product.GridItem>
+               <Product.GridItem>
             <img
               src="/images/content/wall-graphics-3m-vinyl.jpg"
               alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
@@ -55,6 +55,8 @@ const StickerManufacturerPage = () => {
               height="450"
             />
           </Product.GridItem>
+            </Product.Description>
+
         </Product.Head>
 
       </div>
