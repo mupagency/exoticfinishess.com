@@ -26,11 +26,6 @@ const StickerManufacturerPage = () => {
               height="450"
             />
           </Product.GridItem>
-
-          </div>
-
-        </Product.Head>
-
         <Product.Grid>
           <Product.GridItem>
             <Product.Subtitle>Wall Graphics</Product.Subtitle>
@@ -47,6 +42,10 @@ const StickerManufacturerPage = () => {
           </Product.GridItem>
 
         </Product.Grid>
+          </div>
+
+        </Product.Head>
+
       </div>
     </GraphicLayout>
   );
