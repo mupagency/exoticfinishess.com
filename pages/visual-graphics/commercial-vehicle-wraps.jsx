@@ -35,7 +35,7 @@ const CommercialVehicleWrapsPage = () => {
             alt="Commercial car wrap for trailer with custom design and installed with 3m vinyl"
           />
         </div>
-    </GraphicLayoutCompact>
+    </GraphicLayout>
   );
 };
 
