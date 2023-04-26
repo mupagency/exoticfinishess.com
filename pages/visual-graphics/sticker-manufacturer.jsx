@@ -13,10 +13,10 @@ const StickerManufacturerPage = () => {
             <Product.Description>
               <p>
                 Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M
-                vinyl for the highest quality and can last long periods of time.
+                vinyl for the highest quality and can last long periods of time.<br>
               </p>
             </Product.Description>
-     <br>
+     
            <Product.GridItem>
             <img
               src="/images/content/wall-graphics-3m-vinyl.jpg"
