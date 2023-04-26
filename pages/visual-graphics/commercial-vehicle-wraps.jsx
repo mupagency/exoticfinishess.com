@@ -3,36 +3,52 @@ import Product from "components/shared/product";
 
 const CommercialVehicleWrapsPage = () => {
   return (
-    <GraphicLayout>
+    <GraphicLayoutCompact>
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Commercial Vehicle Wraps</Product.Title>
+            <Product.Title>
+              Window <br />  graphics
+            </Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                Vehicle marketing solution for your business. To ensure quality and accuracy we design, print, install
-                and remove. We do graphics for cars, vans, trucks, SUVs, boats, and planes. Fleet vehicle wraps increase
-                advertising opportunity, promote brand consistency, and lend legitimacy to a business.
+                Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M
+                vinyl for the highest quality and can last long periods of time.
               </p>
             </Product.Description>
+           <Product.GridItem>
+            <img
+              src="/images/content/window-graphics-large-format-printing-3m.jpg"
+              alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
+              loading="lazy"
+              className="max-w-full"
+              width="600"
+              height="450"
+            />
+          </Product.GridItem>
+
           </div>
+
         </Product.Head>
-        <div className="mb-8 mt-8 product-media">
-          <img
-            src="/images/content/commercial-car-wrap-design-mercedes-benz-van.jpg"
-            alt="Commercial car wrap for Zurikate using 3m IJ180 vinyl and custom design"
-          />
-        </div>
-        <div className="mb-12 product-media">
-          <img
-            src="/images/content/commercial-car-wraps-trailer-3m-vinyl.jpg"
-            alt="Commercial car wrap for trailer with custom design and installed with 3m vinyl"
-          />
-        </div>
+
+        <Product.Grid>
+          <Product.GridItem>
+            <Product.Subtitle>Window graphics</Product.Subtitle>
+            <Product.Parragraph>
+              From logos to grand openings, window graphics personalize your space to meet your goals and objectives.
+              Increase brand awareness with branded masterpieces.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              We offer in house design, print and installation and service all United States. We use the best of vinyl
+              graphics with our exotic laminations between glossy, matte, sparkle, textures and more.
+            </Product.Parragraph>
+          </Product.GridItem>
+
+        </Product.Grid>
       </div>
-    </GraphicLayout>
+    </GraphicLayoutCompact>
   );
 };
 
