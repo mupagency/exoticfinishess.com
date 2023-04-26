@@ -28,7 +28,7 @@ const WindowWallGraphicsPage = () => {
               height="450"
             />
           </Product.GridItem>
-        <Product.Grid>
+       
           <Product.GridItem>
             <Product.Subtitle>Window graphics</Product.Subtitle>
             <Product.Parragraph>
@@ -39,14 +39,15 @@ const WindowWallGraphicsPage = () => {
               We offer in house design, print and installation and service all United States. We use the best of vinyl
               graphics with our exotic laminations between glossy, matte, sparkle, textures and more.
             </Product.Parragraph>
-          </Product.GridItem>
+         </Product.Grid>
 
           </div>
-
+     <Product.Grid>
+     </Product.GridItem>
         </Product.Head>
 
 
-        </Product.Grid>
+        
       </div>
     </GraphicLayoutCompact>
   );
