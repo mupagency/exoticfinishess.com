@@ -32,6 +32,16 @@ const WindowWallGraphicsPage = () => {
             />
           </Product.GridItem>
         </Product.Grid>
+          <Product.GridItem>
+            <img
+              src="/images/content/window-graphics-large-format-printing-3m.jpg"
+              alt="Large format printing for store front with 3m vinyl graphics. Any design can be printed and installed on windows and walls"
+              loading="lazy"
+              className="max-w-full"
+              width="733"
+              height="550"
+            />
+          </Product.GridItem>
         <Product.Grid>
           <Product.GridItem>
             <Product.Subtitle>Window graphics</Product.Subtitle>
