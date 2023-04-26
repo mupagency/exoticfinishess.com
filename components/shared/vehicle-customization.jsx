@@ -6,7 +6,7 @@ const VehicleCustomization = () => {
   return (
     <div>
       <div className="text-white px-4 py-6 bg-stone-900">
-        <HeadlineGroup category="services" title="Vehicle Customization" />
+        <HeadlineGroup category="services" title="Window Graphics" />
       </div>
       <NavWrap>
         <Link href="/vehicle-customization/paint-protection-film/">
