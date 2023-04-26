@@ -58,7 +58,7 @@ const IntroSection = () => {
             </Link>
             <Link href="/vehicle-customization/">
               <a>
-                <Button> Vehicle customization </Button>
+                <Button> Window Films</Button>
               </a>
             </Link>
           </div>
