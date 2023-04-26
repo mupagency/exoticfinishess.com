@@ -162,16 +162,7 @@ const Header = () => {
                     </div>
                   </Link>
                 </li>
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/visual-graphics/commercial-vehicle-wraps/">
-                    <div className={`${pathname.includes("commercial-vehicle-wraps") && "text-black"}`}>
-                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Commercial Vehicle <br /> Wraps
-                        <span></span>
-                      </div>
-                    </div>
-                  </Link>
-                </li>
+
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/visual-graphics/sticker-manufacturer/">
                     <div className={`${pathname.includes("sticker-manufacturer") && "text-black"}`}>
