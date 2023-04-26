@@ -6,7 +6,7 @@ const VehicleCustomization = () => {
   return (
     <div>
       <div className="text-white px-4 py-6 bg-stone-900">
-        <HeadlineGroup category="services" title="Window Graphics" />
+        <HeadlineGroup category="services" title="Window Films" />
       </div>
       <NavWrap>
         <Link href="/visual-graphics/window-frost-privacy-film/">
