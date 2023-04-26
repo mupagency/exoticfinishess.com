@@ -48,7 +48,7 @@ const CommercialVehicleWrapsPage = () => {
 
         </Product.Grid>
       </div>
-    </GraphicLayoutCompact>
+    </GraphicLayout>
   );
 };
 
