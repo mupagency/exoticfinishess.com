@@ -1,5 +1,6 @@
 import VehicleLayout from "components/layouts/vehicle";
 import Product from "components/shared/product";
+import Link from "next/link";
 
 const WindowTintPage = () => {
   return (
