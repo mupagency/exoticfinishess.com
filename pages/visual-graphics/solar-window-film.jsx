@@ -51,7 +51,7 @@ const SolarWindowFilmPage = () => {
           </Product.GridItem>
           <Product.GridItem>
             <img
-              src="/images/content/stealth-ppf-xpel-bmw-m240i.jpg"
+              src="/images/content/wall-graphics-3m-vinyl.jpg"
               alt="2022 BMW 240i with XPEL stealth paint protection film. Black out wheels from Zurikate"
               className="max-w-full"
             />
@@ -60,7 +60,7 @@ const SolarWindowFilmPage = () => {
         <Product.Grid>
           <Product.GridItemImg>
             <img
-              src="/images/content/paint-protection-film-ultimate-fusion-gloss-with-ceramic-xpel.jpg"
+              src="/images/content/large-format-printing-mural-3m.jpg"
               alt="Process of ultimate fusion XPEL in gloss paint protection film being installed on a 2022 Ford F250 Harley Davidson"
               className="max-w-full"
             />
