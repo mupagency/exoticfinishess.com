@@ -262,9 +262,9 @@ const Header = () => {
                   <Link href="/vehicle-customization/paint-protection-film/">
                     <div className={`${pathname.includes("paint-protection-film") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Paint Protection Film
+                        Window frost privacy Film
                         <div className="flex justify-center w-10 mx-auto">
-                          <XpelIcon />
+                         
                         </div>
                       </div>
                     </div>
