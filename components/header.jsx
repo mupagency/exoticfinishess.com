@@ -204,26 +204,8 @@ const Header = () => {
                     </div>
                   </Link>
                 </li>
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/vehicle-customization/vehicle-wraps/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Vehicle Wraps
-                      <div className="flex justify-center w-5 mx-auto">
-                        <MIcon />
-                      </div>
-                    </div>
-                  </Link>
-                </li>
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/vehicle-customization/ceramic/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Ceramic
-                      <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
-                      </div>
-                    </div>
-                  </Link>
-                </li>
+
+
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/powder-coat-paint/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
