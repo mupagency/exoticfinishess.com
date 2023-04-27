@@ -205,9 +205,9 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/paint-protection-film/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Paint Protection Film
+                      WINDOW FROST <br /> PRIVACY FILM
                       <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
+                       
                       </div>
                     </div>
                   </Link>
@@ -215,9 +215,9 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Window Tint
+                      Solar Window <br /> Film
                       <div className="flex justify-center w-10 mx-auto">
-                        <XpelIcon />
+                       
                       </div>
                     </div>
                   </Link>
