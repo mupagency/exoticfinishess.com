@@ -17,23 +17,16 @@ const SolarWindowFilmPage = () => {
           <div>
             <Product.Description>
               <p>
-                It is the best protection you can provide to the surfaces of your vehicle, it is a thermoplastic
-                transparent film, designed to protect painted surfaces from damage caused by abrasion, corrosion,
-                chemicals or minor damage by road stones.
-              </p>
-              <p>
-                Protect your investment from damage such as stones, scratches, friction with another surface, this is
-                possible with the installation of Paint Protection Film (PPF).
+                Vinyl can be applied to walls or windows to improve your brand visibility, for that reason we use 3M vinyl for the highest quality and can last long periods of time.
               </p>
             </Product.Description>
           </div>
         </Product.Head>
         <Product.Grid>
           <Product.GridItem>
-            <Product.Subtitle>Self-Healing</Product.Subtitle>
+            <Product.Subtitle>Wall Graphics</Product.Subtitle>
             <Product.Parragraph>
-              When exposed to heat, the enhanced clear coat properties eliminate fine scratches and swirl marks over
-              time.
+              Bring life to any room or office with our custom wall decals and graphics. Vinyl can be applied to walls with any texture like, concrete, Sheetrock, wood, aluminum ect. We use 3M vinyl for the highest quality and can last long periods of time.
             </Product.Parragraph>
             <div className="mb-8"></div>
             <Product.Subtitle>Sleek Satin Finish</Product.Subtitle>
