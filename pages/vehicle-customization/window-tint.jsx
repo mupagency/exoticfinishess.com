@@ -1,11 +1,47 @@
+import VehicleLayout from "components/layouts/vehicle";
+import Product from "components/shared/product";
 export const NavWrap = ({ children }) => {
   return (
       <div className="container">{children}</div>
-
   );
 };
 
-export const NavItem = ({ children, title = "", type = "" }) => {
+const WindowTintPage = () => {
+  return (
+    <VehicleLayout>
+      <div className="container">
+        <Product.Head>
+          <div>
+            <Product.Title>
+              Window <br /> Tint
+              <span className="inline-block align-middle">
+                <img src="/images/xpel.png" alt="ExoticFinishes Xpel" width="103" height="27" />
+              </span>
+            </Product.Title>
+          </div>
+          <div>
+            <Product.Description>
+              <Product.Subtitle>NANO-CERAMIC WINDOW TINT</Product.Subtitle>
+              <p>
+                If you&apos;re looking for maximum performance & protection from your window tint, look no further than
+                nano-ceramic window film like PRIME XR PLUS. Ceramic tint is designed to block out the most infrared
+                heat possible, while reflecting harmful UV rays to keep you safe. No matter the shade, ceramic window
+                tint delivers results you expect
+              </p>
+            </Product.Description>
+          </div>
+        </Product.Head>
+        <div className="mb-8 product-media">
+          <img
+            src="/images/content/nano-ceramic-window-tint-xpel.jpg"
+            alt="Window tint for a 2022 Tesla Model Y with XR plus nano-ceramic film"
+          />
+        </div>
+        <h2 className="font-acuminpro text-3xl uppercase text-center mb-12 px-4">We Carry:</h2>
+        <div className="mb-20 product-media">
+          <img src="/images/content/prime-xr.png" alt="Prime XR automotive window film" className="mx-auto" />
+        </div>
+    export const NavItem = ({ children, title = "", type = "" }) => {
   return (
     <div className="relative h-[190px] lg:h-full">
       <div className="relative z-0 w-full h-full">{children}</div>
@@ -22,4 +58,9 @@ export const NavItem = ({ children, title = "", type = "" }) => {
     </div>
   );
 };
+      </div>
+    </VehicleLayout>
+  );
+};
 
+export default WindowTintPage;
