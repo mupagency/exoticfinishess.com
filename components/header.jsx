@@ -276,7 +276,6 @@ const Header = () => {
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
                         Solar Window <br /> Film
                         <div className="flex justify-center w-10 mx-auto">
-                          <XpelIcon />
                         </div>
                       </div>
                     </div>
