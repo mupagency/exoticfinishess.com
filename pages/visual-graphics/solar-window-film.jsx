@@ -29,18 +29,6 @@ const SolarWindowFilmPage = () => {
               Bring life to any room or office with our custom wall decals and graphics. Vinyl can be applied to walls with any texture like, concrete, Sheetrock, wood, aluminum ect. We use 3M vinyl for the highest quality and can last long periods of time.
             </Product.Parragraph>
             <div className="mb-8"></div>
-            <Product.Subtitle>Sleek Satin Finish</Product.Subtitle>
-            <Product.Parragraph>
-              With an unique satin finish, STEALTH helps match most factory flat paint jobs and virtually disappears on
-              most surfaces. With a finish that&apos;s uniformly smooth, you can add STEALTH to your matte or gloss
-              paint job for a unique satin finish.
-            </Product.Parragraph>
-            <div className="mb-8"></div>
-            <Product.Subtitle>Easy Maintenance</Product.Subtitle>
-            <Product.Parragraph>
-              Flat finishes are notoriously difficult to maintain and even harder to repair. STEALTH enables you to
-              easily wash and dry your car without damaging its sheen.
-            </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
             <img
@@ -59,19 +47,14 @@ const SolarWindowFilmPage = () => {
             />
           </Product.GridItemImg>
           <Product.GridItem>
-            <Product.Subtitle>Next level dual-purpose protection</Product.Subtitle>
+            <Product.Subtitle>LARGE FORMAT PRINTING </Product.Subtitle>
             <Product.Parragraph>
-              ULTIMATE FUSION is an optically clear, high gloss, self-healing film that protects vehicles from rock
-              chips, scuffs, and light scratches. Developed with a hydrophobic top-coat, the film&apos;s naturally slick
-              surface helps repel water, making protected surfaces easier to wash and stay clean.
+              Have a large space that needs advertising? We design, print and install Murals, Banners, Posters, Wallpapers and Billboards. 
+              Large format printing takes visual communication to a new level, amplifying a message in ways that were previously unthinkable. 
+              Large format printing is a smart way to invest your marketing budget.
             </Product.Parragraph>
-            <Product.Parragraph>Hydrophobic Properties: Repels water, dirt, and road grime.</Product.Parragraph>
-            <Product.Parragraph>
-              Provides Protection From The Elements: Formulated to protect against damaging oxidation, insect acids,
-              corrosion, and contaminants.
-            </Product.Parragraph>
-            <Product.Parragraph>
-              Improves Surface Clarity: Increases color depth, leaving PPF with a smooth and slick finish.
+            <Product.Parragraph>Digital printing is extremely cost-effective and in many cases you can take advantage of surfaces you already have, 
+            such as walls or windows.
             </Product.Parragraph>
           </Product.GridItem>
         </Product.Grid>
@@ -81,21 +64,7 @@ const SolarWindowFilmPage = () => {
             alt="Lamborghini with XPEL ultimate fusion plus in gloss with ceramic paint protection film"
           />
         </div>
-        <h2 className="font-acuminpro text-3xl uppercase text-center mb-8 px-4">PPF XPEL SMOKED HEAD LIGHT</h2>
-        <Product.Grid>
-          <Product.GridItem>
-            <img
-              src="/images/content/ppf-xpel-smoked-head-lights-tesla-y-1.jpg"
-              alt="Process of XPEL XR plus on headlights for 2022 Tesla Model Y"
-            />
-          </Product.GridItem>
-          <Product.GridItem>
-            <img
-              src="/images/content/ppf-xpel-smoked-head-lights-tesla-y-2.jpg"
-              alt="Smoked headlights with XPEL XR plus on 2022 Tesla Model Y. Stealth paint protection film xpel"
-            />
-          </Product.GridItem>
-        </Product.Grid>
+
       </div>
     </GraphicLayout>
   );
