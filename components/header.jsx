@@ -274,7 +274,7 @@ const Header = () => {
                   <Link href="/vehicle-customization/window-tint/">
                     <div className={`${pathname.includes("window-tint") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Window Tint
+                        Solar Window <br /> Film
                         <div className="flex justify-center w-10 mx-auto">
                           <XpelIcon />
                         </div>
