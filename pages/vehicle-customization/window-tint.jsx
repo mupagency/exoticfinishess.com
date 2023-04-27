@@ -31,14 +31,6 @@ const WindowTintPage = () => {
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
-            <Product.Subtitle>Clear View</Product.Subtitle>
-            <Product.Parragraph>
-            films are designed to filter in visible light while cutting Infrared
-            heat and UV rays. These features optimize visibility from both sides of the glass 
-
-            </Product.Parragraph>
-          </Product.GridItem>
-          <Product.GridItem>
             <img
               src="/images/content/xpel-vision-clear-view-plus-thumb.jpg"
               alt="Xpel vision clear view plus solar window film installed in a house. Window tint with maximum technology to keep the heat away"
