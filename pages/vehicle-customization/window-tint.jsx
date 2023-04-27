@@ -1,6 +1,8 @@
 import VehicleLayout from "components/layouts/vehicle";
 import Product from "components/shared/product";
 import Link from "next/link";
+import { HeadlineGroup } from "components/shared/headlines";
+import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
 
 const WindowTintPage = () => {
   return (
