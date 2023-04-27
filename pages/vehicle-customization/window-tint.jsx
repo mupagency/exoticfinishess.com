@@ -1,5 +1,12 @@
 import VehicleLayout from "components/layouts/vehicle";
 import Product from "components/shared/product";
+export const NavWrap = ({ children }) => {
+  return (
+    <nav className="flex justify-center py-8 px-4">
+      <div className="flex flex-col md:flex-row rounded-3xl overflow-hidden">{children}</div>
+    </nav>
+  );
+};
 
 const WindowTintPage = () => {
   return (
