@@ -26,8 +26,14 @@ const WindowTintPage = () => {
           <Product.GridItem>
             <Product.Subtitle>Clear View</Product.Subtitle>
             <Product.Parragraph>
+            <p>
             Includes: Clear View Ceramic, Clear View Alloy, And Clear View Plus
-
+            </p>
+            <Product.Subtitle>Clear View</Product.Subtitle>
+            <p>
+            films are designed to filter in visible light while cutting Infrared
+            heat and UV rays. These features optimize visibility from both sides of the glass.
+            </p>
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
