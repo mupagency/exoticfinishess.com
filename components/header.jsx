@@ -129,7 +129,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/visual-graphics/commercial-vehicle-wraps/">
+                  <Link href="/visual-graphics/solar-window-film/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Wall Graphics
                       <span></span>
