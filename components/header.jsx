@@ -202,16 +202,7 @@ const Header = () => {
           <nav className="absolute top-full left-0 right-0 bg-neutral-900 bg-opacity-80 md:rounded-b-2xl">
             <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8">
               <ul className="text-center leading-none text-white uppercase text-xs lg:text-lg">
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/vehicle-customization/paint-protection-film/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      WINDOW FROST <br /> PRIVACY FILM
-                      <div className="flex justify-center w-10 mx-auto">
-                       
-                      </div>
-                    </div>
-                  </Link>
-                </li>
+
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
@@ -258,7 +249,18 @@ const Header = () => {
           <nav className="relative bg-white">
             <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8 border-b border-neutral-400">
               <ul className="text-center leading-none text-neutral-400 uppercase text-xs lg:text-lg">
-
+                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
+                  <Link href="/vehicle-customization/paint-protection-film/">
+                    <div className={`${pathname.includes("paint-protection-film") && "text-black"}`}>
+                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
+                        Window frost <br /> privacy Film
+                        <div className="flex justify-center w-10 mx-auto">
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/vehicle-customization/window-tint/">
                     <div className={`${pathname.includes("window-tint") && "text-black"}`}>
