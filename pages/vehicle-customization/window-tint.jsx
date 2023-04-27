@@ -10,36 +10,38 @@ const WindowTintPage = () => {
 <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Powder Coating Painting</Product.Title>
+            <Product.Title> SOLAR <br /> WINDOW FILM</Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                It is the best protection you can provide to the surfaces of your vehicle, it is a thermoplastic
-                transparent film, designed to protect painted surfaces from damage caused by abrasion, corrosion,
-                chemicals or minor damage by road stones.
-              </p>
-              <p>
-                Protect your investment from damage such as stones, scratches, friction with another surface, this is
-                possible with the installation of Paint Protection Film (PPF).
+              If you're ready to take control of temperatures in your home or office and
+              add next-level privacy with UV protection, look no further than VISION Solar
+              Window Film or mostly known as window tint
               </p>
             </Product.Description>
           </div>
         </Product.Head>
         <Product.Grid>
           <Product.GridItem>
-            <Product.Subtitle>Powder coating wheel paint</Product.Subtitle>
+            <Product.Subtitle>Clear View</Product.Subtitle>
             <Product.Parragraph>
-              Powder coating is an electrically-bonded powder that when sprayed, sticks to the metal of the wheels via a
-              process called &quot;electro-static attraction.&quot; As the atomized paint molecules are
-              &quot;misted&quot; onto the wheel, they create a coating that can be baked into the surface via extreme
-              heat with a kiln, or oven.
+            Includes: Clear View Ceramic, Clear View Alloy, And Clear View Plus
+
+            </Product.Parragraph>
+          </Product.GridItem>
+          <Product.GridItem>
+            <Product.Subtitle>Clear View</Product.Subtitle>
+            <Product.Parragraph>
+            films are designed to filter in visible light while cutting Infrared
+            heat and UV rays. These features optimize visibility from both sides of the glass 
+
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
             <img
-              src="/images/content/powder-coating-wheel-paint-mercedes-benz.jpg"
-              alt="Powder coat wheels on a Mercedes Benz AMG 53 in gloss black with red calipers"
+              src="/images/content/xpel-vision-clear-view-plus-thumb.jpg"
+              alt="Xpel vision clear view plus solar window film installed in a house. Window tint with maximum technology to keep the heat away"
               className="max-w-full"
             />
           </Product.GridItem>
