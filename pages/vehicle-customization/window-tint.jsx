@@ -5,37 +5,21 @@ const WindowTintPage = () => {
   return (
     <VehicleLayout>
       <div className="container">
-        <Product.Head>
-          <div>
-            <Product.Title>
-              Window <br /> Tint
-              <span className="inline-block align-middle">
-                <img src="/images/xpel.png" alt="ExoticFinishes Xpel" width="103" height="27" />
-              </span>
-            </Product.Title>
-          </div>
-          <div>
-            <Product.Description>
-              <Product.Subtitle>NANO-CERAMIC WINDOW TINT</Product.Subtitle>
-              <p>
-                If you&apos;re looking for maximum performance & protection from your window tint, look no further than
-                nano-ceramic window film like PRIME XR PLUS. Ceramic tint is designed to block out the most infrared
-                heat possible, while reflecting harmful UV rays to keep you safe. No matter the shade, ceramic window
-                tint delivers results you expect
-              </p>
-            </Product.Description>
-          </div>
-        </Product.Head>
-        <div className="mb-8 product-media">
-          <img
-            src="/images/content/nano-ceramic-window-tint-xpel.jpg"
-            alt="Window tint for a 2022 Tesla Model Y with XR plus nano-ceramic film"
-          />
+ export const NavItem = ({ children, title = "", type = "" }) => {
+  return (
+    <div className="relative h-[190px] lg:h-full">
+      <div className="relative z-0 w-full h-full">{children}</div>
+      <div className="absolute inset-0 bg-stone-900 bg-opacity-60 hover:bg-opacity-0 transition-colors z-0"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full pointer-events-none">
+        <h2 className="mb-2 text-white uppercase text-sm md:text-xl lg:text-2xl font-bold text-center px-4">{title}</h2>
+        <div className="flex justify-center text-white">
+          {type == "xpel" && (
+            <img src="/images/navigation/xpel.png" alt="Exotic Finishess Xpel" width="85" height="22" />
+          )}
+          {type == "3m" && <img src="/images/navigation/3m.png" alt="Exotic Finishess 3M" width="51" height="27" />}
         </div>
-        <h2 className="font-acuminpro text-3xl uppercase text-center mb-12 px-4">We Carry:</h2>
-        <div className="mb-20 product-media">
-          <img src="/images/content/prime-xr.png" alt="Prime XR automotive window film" className="mx-auto" />
-        </div>
+      </div>
+    </div>
       </div>
     </VehicleLayout>
   );
