@@ -36,6 +36,21 @@ const WindowTintPage = () => {
         <div className="mb-20 product-media">
           <img src="/images/content/prime-xr.png" alt="Prime XR automotive window film" className="mx-auto" />
         </div>
+            <Link href="/visual-graphics/window-frost-privacy-film/">
+          <a>
+            <Item title="Window Frost Privacy Film">
+              <picture>
+                <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
+                <img
+                  src="/images/navigation/window-frost-privacy-film.jpg"
+                  alt="Partial window frost privacy film installed on glass for office with custom design"
+                  width="348"
+                  height="499"
+                />
+              </picture>
+            </Item>
+          </a>
+        </Link>
 
       </div>
     </VehicleLayout>
