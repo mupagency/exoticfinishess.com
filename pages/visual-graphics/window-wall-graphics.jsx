@@ -18,6 +18,7 @@ const WindowWallGraphicsPage = () => {
                 vinyl for the highest quality and can last long periods of time.
               </p>
             </Product.Description>
+                <div className="mb-8"></div>
            <Product.GridItem>
             <img
               src="/images/content/window-graphics-large-format-printing-3m.jpg"
