@@ -76,7 +76,7 @@ const Header = () => {
                     className={`relative ${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
                   >
                     <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
-                      Window Films
+                      Window Graphics
                     </h3>
                     {pathname.startsWith("/vehicle-customization") && (
                       <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
