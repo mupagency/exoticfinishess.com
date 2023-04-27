@@ -25,9 +25,3 @@ export const NavItem = ({ children, title = "", type = "" }) => {
     </div>
   );
 };
-      </div>
-    </VehicleLayout>
-  );
-};
-
-export default WindowTintPage;
