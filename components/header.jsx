@@ -214,15 +214,6 @@ const Header = () => {
                     </div>
                   </Link>
                 </li>
-
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/vehicle-customization/powder-coat-paint/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Custom details - Powder <br /> Coat Paint
-                      <span></span>
-                    </div>
-                  </Link>
-                </li>
               </ul>
             </div>
           </nav>
