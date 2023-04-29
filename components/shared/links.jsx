@@ -68,7 +68,7 @@ const links = () => {
         </li>
         {/* link to window-frost-privacy-film */}
         <li>
-          <Link href="/visual-graphics/window-frost-privacy-film/">
+          <Link href="/visual-graphics/paint-protection-film/">
             <a>Window Frost Privacy Film</a>
           </Link>
         </li>
