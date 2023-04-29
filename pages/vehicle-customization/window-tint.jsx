@@ -1,8 +1,5 @@
 import VehicleLayout from "components/layouts/vehicle";
 import Product from "components/shared/product";
-import Link from "next/link";
-import { HeadlineGroup } from "components/shared/headlines";
-import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
 
 const WindowTintPage = () => {
   return (
@@ -15,7 +12,7 @@ const WindowTintPage = () => {
           <div>
             <Product.Description>
               <p>
-              If you're ready to take control of temperatures in your home or office and
+              If you&#39re ready to take control of temperatures in your home or office and
               add next-level privacy with UV protection, look no further than VISION Solar
               Window Film or mostly known as window tint
               </p>
