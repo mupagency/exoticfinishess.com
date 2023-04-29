@@ -27,7 +27,7 @@ const ServiceGraphics = () => {
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/sticker-manufacturer/">
+        <Link href="/visual-graphics/solar-window-film/">
           <a>
             <Item title="sticker Manufacturer">
               <picture>
