@@ -245,18 +245,6 @@ const Header = () => {
                     </div>
                   </Link>
                 </li>
-
-
-                <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/vehicle-customization/powder-coat-paint/">
-                    <div className={`${pathname.includes("powder-coat-paint") && "text-black"}`}>
-                      <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Custom details - Powder <br /> Coat Paint
-                        <span></span>
-                      </div>
-                    </div>
-                  </Link>
-                </li>
               </ul>
             </div>
           </nav>
