@@ -9,7 +9,7 @@ const VehicleCustomization = () => {
         <HeadlineGroup category="services" title="Window Films" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/window-frost-privacy-film/">
+        <Link href="/visual-graphics/paint-protection-film/">
           <a>
             <Item title="Window Frost Privacy Film">
               <picture>
