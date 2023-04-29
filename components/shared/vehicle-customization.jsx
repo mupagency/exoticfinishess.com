@@ -9,7 +9,7 @@ const VehicleCustomization = () => {
         <HeadlineGroup category="services" title="Window Films" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/paint-protection-film/">
+        <Link href="/vehicle-customization/paint-protection-film/">
           <a>
             <Item title="Window Frost Privacy Film">
               <picture>
@@ -25,7 +25,7 @@ const VehicleCustomization = () => {
           </a>
         </Link>
     
-        <Link href="/visual-graphics/solar-window-film/">
+        <Link href="/vehicle-customization/window-tint/">
           <a>
             <Item title="Solar Window Film">
               <picture>
