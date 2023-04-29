@@ -11,7 +11,7 @@ const ServiceGraphics = () => {
       <NavWrap>
         <Link href="/visual-graphics/window-wall-graphics/>
           <a>
-            <Item title="Wall Graphics">
+            <Item title="Window & Wall Graphics">
               <picture>
                 <source
                   srcSet="/images/navigation/mobile/large-format-printing-mural-3m.jpg"
@@ -29,7 +29,7 @@ const ServiceGraphics = () => {
         </Link>
         <Link href="/visual-graphics/solar-window-film/">
           <a>
-            <Item title="Window Graphics">
+            <Item title="sticker Manufacturer">
               <picture>
                 <source
                   srcSet="/images/navigation/mobile/stickers-manufacturer-decals-3m.jpg"
