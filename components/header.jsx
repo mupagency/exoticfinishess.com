@@ -1,5 +1,5 @@
 import Brand from "components/shared/brand";
-import { MIcon, MinusIcon, PlusIcon, XpelIcon } from "components/shared/icons";
+import {MinusIcon, PlusIcon} from "components/shared/icons";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
