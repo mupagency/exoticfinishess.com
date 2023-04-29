@@ -9,7 +9,7 @@ const ServiceGraphics = () => {
         <HeadlineGroup category="services" title="VINYL GRAPHICS & FILMS" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/window-wall-graphics/>
+        <Link href="/visual-graphics/window-wall-graphics/">
           <a>
             <Item title="Window & Wall Graphics">
               <picture>
@@ -27,7 +27,7 @@ const ServiceGraphics = () => {
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/solar-window-film/">
+        <Link href="/visual-graphics/sticker-manufacturer/">
           <a>
             <Item title="sticker Manufacturer">
               <picture>
@@ -38,6 +38,21 @@ const ServiceGraphics = () => {
                 <img
                   src="/images/navigation/stickers-manufacturer-decals-3m.jpg"
                   alt="Stickers in silver using 3m vinyl. Decals in different designs"
+                  width="348"
+                  height="499"
+                />
+              </picture>
+            </Item>
+          </a>
+        </Link>
+        <Link href="/visual-graphics/window-frost-privacy-film/">
+          <a>
+            <Item title="Window Frost Privacy Film">
+              <picture>
+                <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
+                <img
+                  src="/images/navigation/window-frost-privacy-film.jpg"
+                  alt="Partial window frost privacy film installed on glass for office with custom design"
                   width="348"
                   height="499"
                 />
