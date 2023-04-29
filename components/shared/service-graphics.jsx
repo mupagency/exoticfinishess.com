@@ -11,7 +11,7 @@ const ServiceGraphics = () => {
       <NavWrap>
         <Link href="/visual-graphics/window-wall-graphics/">
           <a>
-            <Item title="Window Graphics">
+            <Item title="Window & Wall Graphics">
               <picture>
                 <source
                   srcSet="/images/navigation/mobile/large-format-printing-mural-3m.jpg"
