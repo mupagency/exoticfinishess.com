@@ -30,16 +30,31 @@ const ServiceGraphics = () => {
         <Link href="/visual-graphics/window-wall-graphics/">
           <a>
             <Item title="Windows grahics">
+                <picture>
+                  <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
+                  <img
+                      src="/images/navigation/window-frost-privacy-film.jpg"
+                      alt="Partial window frost privacy film installed on glass for office with custom design"
+                      width="348"
+                      height="499"
+                  />
+              </picture>
+            </Item>
+          </a>
+        </Link>
+        <Link href="/visual-graphics/sticker-manufacturer/">
+          <a>
+            <Item title="Sticker manufacturer">
               <picture>
                 <source
-                  srcSet="/images/navigation/mobile/stickers-manufacturer-decals-3m.jpg"
-                  media="(max-width: 768px)"
+                    srcSet="/images/navigation/mobile/stickers-manufacturer-decals-3m.jpg"
+                    media="(max-width: 768px)"
                 />
                 <img
-                  src="/images/navigation/stickers-manufacturer-decals-3m.jpg"
-                  alt="Stickers in silver using 3m vinyl. Decals in different designs"
-                  width="348"
-                  height="499"
+                    src="/images/navigation/stickers-manufacturer-decals-3m.jpg"
+                    alt="Stickers in silver using 3m vinyl. Decals in different designs"
+                    width="348"
+                    height="499"
                 />
               </picture>
             </Item>
