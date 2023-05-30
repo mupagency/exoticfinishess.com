@@ -9,7 +9,7 @@ const ServiceGraphics = () => {
         <HeadlineGroup category="services" title="VINYL GRAPHICS & FILMS" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/window-wall-graphics/">
+        <Link href="/visual-graphics/solar-window-film/">
           <a>
             <Item title="Wall Graphics">
               <picture>
@@ -27,7 +27,7 @@ const ServiceGraphics = () => {
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/solar-window-film/">
+        <Link href="/visual-graphics/window-wall-graphics/">
           <a>
             <Item title="Windows grahics">
               <picture>
