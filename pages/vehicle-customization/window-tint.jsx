@@ -1,9 +1,9 @@
-import VehicleLayout from "components/layouts/vehicle";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const WindowTintPage = () => {
   return (
-    <VehicleLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -37,7 +37,7 @@ const WindowTintPage = () => {
           <img src="/images/content/prime-xr.png" alt="Prime XR automotive window film" className="mx-auto" />
         </div>
       </div>
-    </VehicleLayout>
+    </MainLayout>
   );
 };
 

@@ -1,9 +1,9 @@
-import { GraphicLayoutCompact } from "components/layouts/graphics";
+import { CompactLayout } from "components/layouts/main";
 import Product from "components/shared/product";
 
 const WindowFrostPrivacyFilmPage = () => {
   return (
-    <GraphicLayoutCompact>
+    <CompactLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -37,7 +37,7 @@ const WindowFrostPrivacyFilmPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </GraphicLayoutCompact>
+    </CompactLayout>
   );
 };
 

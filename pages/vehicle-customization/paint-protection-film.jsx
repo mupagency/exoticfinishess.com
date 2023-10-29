@@ -1,9 +1,9 @@
-import VehicleLayout from "components/layouts/vehicle";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const PaintProtectionFilmPage = () => {
   return (
-    <VehicleLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -104,7 +104,7 @@ const PaintProtectionFilmPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </VehicleLayout>
+    </MainLayout>
   );
 };
 

@@ -1,9 +1,9 @@
-import VehicleLayout from "components/layouts/vehicle";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const VehicleWrapsPage = () => {
   return (
-    <VehicleLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -80,7 +80,7 @@ const VehicleWrapsPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </VehicleLayout>
+    </MainLayout>
   );
 };
 

@@ -1,9 +1,9 @@
-import GraphicLayout from "components/layouts/graphics";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const CommercialVehicleWrapsPage = () => {
   return (
-    <GraphicLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -32,7 +32,7 @@ const CommercialVehicleWrapsPage = () => {
           />
         </div>
       </div>
-    </GraphicLayout>
+    </MainLayout>
   );
 };
 

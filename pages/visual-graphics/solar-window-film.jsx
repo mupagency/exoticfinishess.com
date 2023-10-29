@@ -1,9 +1,9 @@
-import GraphicLayout from "components/layouts/graphics";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const SolarWindowFilmPage = () => {
   return (
-    <GraphicLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -36,7 +36,7 @@ const SolarWindowFilmPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </GraphicLayout>
+    </MainLayout>
   );
 };
 

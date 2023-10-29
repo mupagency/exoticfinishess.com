@@ -1,17 +1,17 @@
-import MainLayout from "components/layouts/main";
+import { SimpleLayout } from "components/layouts/main";
 import IntroSection from "components/sections/intro";
-import ServiceGraphics from "components/shared/service-graphics";
-import VehicleCustomization from "components/shared/vehicle-customization";
+import WallGraphics from "components/shared/wall-graphics";
+import WindowGraphics from "components/shared/window-graphics";
+import DecalsStickers from "components/shared/decals-stickers";
 
 const HomePage = () => {
   return (
-    <MainLayout>
+    <SimpleLayout>
       <IntroSection />
-
-      <ServiceGraphics />
-
-      <VehicleCustomization />
-    </MainLayout>
+      <WallGraphics />
+      <WindowGraphics />
+      <DecalsStickers />
+    </SimpleLayout>
   );
 };
 

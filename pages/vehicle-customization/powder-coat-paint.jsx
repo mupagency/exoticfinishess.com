@@ -1,9 +1,9 @@
-import VehicleLayout from "components/layouts/vehicle";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const PowderCoatPaint = () => {
   return (
-    <VehicleLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -73,7 +73,7 @@ const PowderCoatPaint = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </VehicleLayout>
+    </MainLayout>
   );
 };
 

@@ -1,9 +1,9 @@
-import GraphicLayout from "components/layouts/graphics";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const StickerManufacturerPage = () => {
   return (
-    <GraphicLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -33,7 +33,7 @@ const StickerManufacturerPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </GraphicLayout>
+    </MainLayout>
   );
 };
 

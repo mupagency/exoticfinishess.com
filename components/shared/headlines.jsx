@@ -8,7 +8,7 @@ export const Headline = ({ title = "" }) => {
 
 export const HeadlineGroup = ({ category = "", title = "" }) => {
   return (
-    <hgroup className="mx-auto max-w-2xl">
+    <hgroup className="mx-auto max-w-3xl">
       <h3 className="mb-4 uppercase text-center text-current font-acuminpro font-black text-2xl md:text-[clamp(24px,_5vw,_64px)] leading-none">
         {title}
       </h3>

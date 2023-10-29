@@ -1,9 +1,9 @@
-import { GraphicLayoutCompact } from "components/layouts/graphics";
+import { CompactLayout } from "components/layouts/main";
 import Product from "components/shared/product";
 
 const WindowWallGraphicsPage = () => {
   return (
-    <GraphicLayoutCompact>
+    <CompactLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -89,7 +89,7 @@ const WindowWallGraphicsPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </GraphicLayoutCompact>
+    </CompactLayout>
   );
 };
 

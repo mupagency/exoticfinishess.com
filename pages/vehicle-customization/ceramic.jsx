@@ -1,9 +1,9 @@
-import VehicleLayout from "components/layouts/vehicle";
+import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
 const CeramicPage = () => {
   return (
-    <VehicleLayout>
+    <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
@@ -102,7 +102,7 @@ const CeramicPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </VehicleLayout>
+    </MainLayout>
   );
 };
 
