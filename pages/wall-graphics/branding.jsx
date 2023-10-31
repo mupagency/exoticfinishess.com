@@ -1,15 +1,13 @@
 import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
-const CustomGraphicsPage = () => {
+const BrandingPage = () => {
   return (
     <MainLayout>
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>
-              Custom <br /> Graphics
-            </Product.Title>
+            <Product.Title>Branding</Product.Title>
           </div>
           <div>
             <Product.Description>
@@ -47,4 +45,4 @@ const CustomGraphicsPage = () => {
   );
 };
 
-export default CustomGraphicsPage;
+export default BrandingPage;

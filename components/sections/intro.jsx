@@ -51,14 +51,14 @@ const IntroSection = () => {
             </h2>
           </hgroup>
           <div className="mx-auto max-w-5xl flex flex-col md:flex-row gap-4 justify-between pointer-events-auto mb-16">
-            <Link href="/visual-graphics/">
+            <Link href="/wall-graphics/">
               <a>
-                <Button> Vinyl graphics & films </Button>
+                <Button> Wall Graphics </Button>
               </a>
             </Link>
-            <Link href="/vehicle-customization/">
+            <Link href="/window-graphics/">
               <a>
-                <Button> Vehicle customization </Button>
+                <Button> Window Graphics </Button>
               </a>
             </Link>
           </div>

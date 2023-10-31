@@ -1,7 +1,7 @@
 import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
-const CustomGraphicsPage = () => {
+const SolarWindowFilmPage = () => {
   return (
     <MainLayout>
       <div className="container">
@@ -47,4 +47,4 @@ const CustomGraphicsPage = () => {
   );
 };
 
-export default CustomGraphicsPage;
+export default SolarWindowFilmPage;
