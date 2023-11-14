@@ -9,71 +9,45 @@ const WindowGraphics = () => {
         <HeadlineGroup category="services" title="WINDOW GRAPHICS" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/commercial-vehicle-wraps/">
+        <Link href="/window-graphics/custom-graphics/">
           <a>
-            <Item title="Commercial Vehicle Wraps">
+            <Item title="Custom Graphics">
               <picture>
-                <source
-                  srcSet="/images/navigation/mobile/commercial-car-wrap-design-mercedes-benz-van.jpg"
-                  media="(max-width: 768px)"
-                />
-                <img
-                  src="/images/navigation/commercial-car-wrap-design-mercedes-benz-van.jpg"
-                  alt="Commercial car wrap for Zurikate using 3m IJ180 vinyl and custom design"
-                  width="348"
-                  height="499"
-                />
+                <source srcSet="/images/navigation/mobile/custom-graphics.jpg" media="(max-width: 768px)" />
+                <img src="/images/navigation/custom-graphics.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/sticker-manufacturer/">
+        <Link href="/window-graphics/perforated-window-graphics/">
           <a>
-            <Item title="sticker Manufacturer">
+            <Item title="Perforated window graphics">
               <picture>
                 <source
                   srcSet="/images/navigation/mobile/stickers-manufacturer-decals-3m.jpg"
                   media="(max-width: 768px)"
                 />
-                <img
-                  src="/images/navigation/stickers-manufacturer-decals-3m.jpg"
-                  alt="Stickers in silver using 3m vinyl. Decals in different designs"
-                  width="348"
-                  height="499"
-                />
+                <img src="/images/navigation/stickers-manufacturer-decals-3m.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/window-frost-privacy-film/">
+        <Link href="/window-graphics/window-frost-privacy-film/">
           <a>
             <Item title="Window Frost Privacy Film">
               <picture>
                 <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
-                <img
-                  src="/images/navigation/window-frost-privacy-film.jpg"
-                  alt="Partial window frost privacy film installed on glass for office with custom design"
-                  width="348"
-                  height="499"
-                />
+                <img src="/images/navigation/window-frost-privacy-film.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/solar-window-film/">
+        <Link href="/window-graphics/solar-window-film/">
           <a>
             <Item title="Solar Window Film">
               <picture>
-                <source
-                  srcSet="/images/navigation/mobile/xpel-vision-clear-view-plus-thumb.jpg"
-                  media="(max-width: 768px)"
-                />
-                <img
-                  src="/images/navigation/xpel-vision-clear-view-plus-thumb.jpg"
-                  alt="Xpel vision clear view plus solar window film installed in a house. Window tint with maximum technology to keep the heat away"
-                  width="348"
-                  height="499"
-                />
+                <source srcSet="/images/navigation/mobile/solar-window-film.jpg" media="(max-width: 768px)" />
+                <img src="/images/navigation/solar-window-film.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>

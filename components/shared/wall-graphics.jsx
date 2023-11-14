@@ -9,38 +9,22 @@ const WallGraphics = () => {
         <HeadlineGroup category="services" title="WALL GRAPHICS" />
       </div>
       <NavWrap>
-        <Link href="/visual-graphics/window-wall-graphics/">
+        <Link href="/wall-graphics/branding/">
           <a>
-            <Item title="Window & Wall Graphics">
+            <Item title="Branding">
               <picture>
-                <source
-                  srcSet="/images/navigation/mobile/large-format-printing-mural-3m.jpg"
-                  media="(max-width: 768px)"
-                />
-                <img
-                  src="/images/navigation/large-format-printing-mural-3m.jpg"
-                  alt="Large format printing in Miami Design District for murals with 3m high quality vinyl for advertising"
-                  width="348"
-                  height="499"
-                />
+                <source srcSet="/images/navigation/mobile/wall-graphics-branding.jpg" media="(max-width: 768px)" />
+                <img src="/images/navigation/wall-graphics-branding.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>
         </Link>
-        <Link href="/visual-graphics/commercial-vehicle-wraps/">
+        <Link href="/wall-graphics/decor/">
           <a>
-            <Item title="Commercial Vehicle Wraps">
+            <Item title="Decor">
               <picture>
-                <source
-                  srcSet="/images/navigation/mobile/commercial-car-wrap-design-mercedes-benz-van.jpg"
-                  media="(max-width: 768px)"
-                />
-                <img
-                  src="/images/navigation/commercial-car-wrap-design-mercedes-benz-van.jpg"
-                  alt="Commercial car wrap for Zurikate using 3m IJ180 vinyl and custom design"
-                  width="348"
-                  height="499"
-                />
+                <source srcSet="/images/navigation/mobile/wall-graphics-decor.jpg" media="(max-width: 768px)" />
+                <img src="/images/navigation/wall-graphics-decor.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
           </a>
