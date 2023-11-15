@@ -7,7 +7,7 @@ const DecorPage = () => {
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Branding</Product.Title>
+            <Product.Title>Decor</Product.Title>
           </div>
           <div>
             <Product.Description>
