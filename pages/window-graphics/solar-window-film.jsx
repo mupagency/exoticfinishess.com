@@ -1,21 +1,21 @@
-import MainLayout from "components/layouts/main";
+import { CompactLayout } from "components/layouts/main";
 import Product from "components/shared/product";
 
 const SolarWindowFilmPage = () => {
   return (
-    <MainLayout>
+    <CompactLayout>
       <div className="container">
         <Product.Head>
           <div>
             <Product.Title>
-              Custom <br /> Graphics
+              Solar <br /> Window Film
             </Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                If you&apos;re ready to take control of temperatures in your home or office and add next-level privacy
+                with UV protection, look no further than VISION Solar Window Film or mostly known as window tint.
               </p>
             </Product.Description>
           </div>
@@ -23,12 +23,14 @@ const SolarWindowFilmPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Experience the perfect balance of natural light and privacy as our solar window films allow ample daylight
+              to filter through while keeping prying eyes at bay. With a variety of shades and styles to choose from,
+              you can find the ideal match to complement your interior decor.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              Upgrade your windows with our state-of-the-art solar window films and enjoy the benefits of a more
+              comfortable, energy-efficient, and environmentally friendly space. Discover the future of window
+              technology with our exceptional solar window films!
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
@@ -43,7 +45,7 @@ const SolarWindowFilmPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </MainLayout>
+    </CompactLayout>
   );
 };
 

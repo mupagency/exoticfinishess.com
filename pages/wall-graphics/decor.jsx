@@ -12,8 +12,9 @@ const DecorPage = () => {
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                Unleash your creativity and transform any blank wall into a captivating canvas with our diverse
+                selection of wall graphics. From nature-inspired landscapes to abstract art, our designs cater to
+                various tastes and styles, making it easy to find the perfect match for your space.
               </p>
             </Product.Description>
           </div>
@@ -21,12 +22,12 @@ const DecorPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Personalize your surroundings and express your unique identity with our customizable options. Create a
+              space that tells your story and inspires those who enter. Let your walls become a reflection of your
+              creativity and passion with our exceptional wall graphics decor.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              Vinyl can be applied to walls with any texture like, concrete, Sheetrock, wood, aluminum ect.
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>

@@ -8,14 +8,14 @@ const PerforatedWindowGraphicsPage = () => {
         <Product.Head>
           <div>
             <Product.Title>
-              Custom <br /> Graphics
+              Perforated <br /> Window <br /> Graphics
             </Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                Step into a world of captivating possibilities with our perforated window graphics! These innovative and
+                versatile designs combine artistry with functionality to create an exceptional visual experience.
               </p>
             </Product.Description>
           </div>
@@ -23,12 +23,14 @@ const PerforatedWindowGraphicsPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Peel back the ordinary and turn your windows into stunning showcases with our premium-quality perforated
+              vinyl. Our graphics strike the perfect balance between privacy and allure, allowing you to enjoy an
+              unobstructed view from the inside while captivating passersby with a captivating display from the outside.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              Whether it&apos;s for your business, storefront,or even home, our perforated window graphics make a
+              lasting impression and provide a seamless branding opportunity. Embrace creativity without compromising on
+              practicality - let your windows speak volumes with our exceptional perforated window graphics.
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>

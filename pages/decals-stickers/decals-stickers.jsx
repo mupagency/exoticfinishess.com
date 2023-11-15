@@ -7,13 +7,16 @@ const DecalsStickersPage = () => {
       <div className="container">
         <Product.Head>
           <div>
-            <Product.Title>Branding</Product.Title>
+            <Product.Title>
+              DECALS / <br /> STICKERS
+            </Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                Explore our vibrant collection of stickers and decals that add flair and personality to your belongings,
+                both big and small. As many as you need, we are able to print stickers from any artwork, picture or
+                logo. Fast turn around times and high quality vinyl.
               </p>
             </Product.Description>
           </div>
@@ -21,12 +24,9 @@ const DecalsStickersPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Crafted with care and precision, our stickers and decals are not only visually stunning but also durable
+              and weather-resistant. They are designed to withstand the test of time, ensuring that your chosen designs
+              remain vivid and vibrant.
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>

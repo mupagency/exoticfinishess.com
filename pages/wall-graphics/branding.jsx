@@ -12,8 +12,9 @@ const BrandingPage = () => {
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                Make a bold statement and reinforce your brand message with our eye-catching wall graphics. Whether
+                it&apos;s your company logo, mission statement, or product images, our designs are tailored to showcase
+                your brand in the most compelling way.
               </p>
             </Product.Description>
           </div>
@@ -21,12 +22,13 @@ const BrandingPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Our high-quality wall graphics are not only visually striking but also durable and long-lasting. With easy
+              application and removal, you can update your branding effortlessly, keeping your space fresh and relevant.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              Explore the power of branding through our custom wall graphics and elevate your business to new heights.
+              Let your walls do the talking and captivate your audience with our exceptional wall graphics branding
+              solutions!
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>

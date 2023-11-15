@@ -1,21 +1,22 @@
-import MainLayout from "components/layouts/main";
+import { CompactLayout } from "components/layouts/main";
 import Product from "components/shared/product";
 
 const WindowFrostPrivacyFilmPage = () => {
   return (
-    <MainLayout>
+    <CompactLayout>
       <div className="container">
         <Product.Head>
           <div>
             <Product.Title>
-              Custom <br /> Graphics
+              Window <br /> Frost <br /> Privacy Film
             </Product.Title>
           </div>
           <div>
             <Product.Description>
               <p>
-                Vinyl can be applied to windows to improve your brand visibility, for that reason we use 3M vinyl for
-                the highest quality and can last long periods of time.
+                Welcome to our window frost collection, where elegance meets privacy in perfect harmony! Our exquisite
+                window frost designs are the ideal solution for adding a touch of sophistication to any space while
+                ensuring a sense of seclusion.
               </p>
             </Product.Description>
           </div>
@@ -23,12 +24,16 @@ const WindowFrostPrivacyFilmPage = () => {
         <Product.Grid>
           <Product.GridItem>
             <Product.Parragraph>
-              Welcome to our website, where creativity meets self-expression! Explore our collection of custom vinyl
-              graphics and add a personal touch to your space or belongings. From eye-catching decals to intricate
-              designs, our team of talented artists can bring your ideas to life. Whether it&apos;s for your home,
-              office, vehicle, or any other surface, our high-quality vinyl graphics are durable and long-lasting.
-              Unleash your imagination and let us help you transform ordinary into extraordinary with our custom vinyl
-              graphics!
+              Transform plain glass surfaces into works of art with our premium-quality window frost film. The delicate
+              patterns and frosty textures not only add a touch of beauty but also provide privacy without sacrificing
+              natural light. Whether it&apos;s for your home, office, or retail space, our window frost options are
+              customizable to suit your unique style and preferences.
+            </Product.Parragraph>
+            <Product.Parragraph>
+              Enhance the ambiance of your surroundings and create a serene atmosphere with our carefully curated
+              selection of window frost designs. Unleash your creativity and explore the endless possibilities of
+              transforming your windows into a stunning visual experience. Experience the magic of window frost and
+              discover the perfect balance between beauty and practicality.
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
@@ -43,7 +48,7 @@ const WindowFrostPrivacyFilmPage = () => {
           </Product.GridItem>
         </Product.Grid>
       </div>
-    </MainLayout>
+    </CompactLayout>
   );
 };
 
