@@ -1,6 +1,35 @@
 import MainLayout from "components/layouts/main";
 import Product from "components/shared/product";
 
+import Gallery from "components/shared/gallery";
+
+const GalleryData = [
+  {
+    url: "/images/content/custom-graphics-slide-01.jpg",
+    alt: "",
+    width: 733,
+    height: 550,
+  },
+  {
+    url: "/images/content/custom-graphics-slide-02.jpg",
+    alt: "",
+    width: 733,
+    height: 550,
+  },
+  {
+    url: "/images/content/custom-graphics-slide-03.jpg",
+    alt: "",
+    width: 412,
+    height: 550,
+  },
+  {
+    url: "/images/content/custom-graphics-slide-04.jpg",
+    alt: "",
+    width: 733,
+    height: 550,
+  },
+];
+
 const BrandingPage = () => {
   return (
     <MainLayout>
@@ -32,14 +61,7 @@ const BrandingPage = () => {
             </Product.Parragraph>
           </Product.GridItem>
           <Product.GridItem>
-            <img
-              src="/images/content/wall-graphics-3m-vinyl.jpg"
-              alt="Wall graphics with necklace and rings design using 3m vinyl and professionally installed"
-              className="max-w-full"
-              loading="lazy"
-              width="732"
-              height="976"
-            />
+            <Gallery images={GalleryData} />
           </Product.GridItem>
         </Product.Grid>
       </div>

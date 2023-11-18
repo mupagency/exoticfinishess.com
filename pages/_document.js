@@ -5,6 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link rel="stylesheet" href="/css/fonts.css" />
+        <link rel="stylesheet" href="/css/app.css" />
       </Head>
       <body className="font-century min-w-[320px]">
         <noscript

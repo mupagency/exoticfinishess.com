@@ -46,7 +46,7 @@ Product.Parragraph = Parragraph;
 
 const Grid = ({ children }) => {
   return (
-    <div className="relative product-grid grid md:grid-cols-2 gap-4 md:gap-12 lg:gap-28 items-center mb-12 lg:mb-16">
+    <div className="relative product-grid md:grid md:grid-cols-2 gap-4 md:gap-12 lg:gap-28 items-center mb-12 lg:mb-16">
       {children}
     </div>
   );

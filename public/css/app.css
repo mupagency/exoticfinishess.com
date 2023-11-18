@@ -1,0 +1,20 @@
+.custom-swiper {
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-color: black;
+  --swiper-pagination-bullet-inactive-color: transparent;
+}
+.custom-swiper .swiper {
+  padding-bottom: 32px;
+}
+.custom-swiper .swiper-slide {
+  height: 280px;
+  min-width: 0px;
+}
+@media (min-width: 768px) {
+  .custom-swiper .swiper-slide {
+    height: 500px;
+  }
+}
+.custom-swiper .swiper-pagination-bullet {
+  border: 1px solid black;
+}
