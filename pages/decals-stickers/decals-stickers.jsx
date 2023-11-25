@@ -5,27 +5,27 @@ import Gallery from "components/shared/gallery";
 
 const GalleryData = [
   {
-    url: "/images/content/custom-graphics-slide-01.jpg",
+    url: "/images/content/decals-stickers-slide-01.jpg",
     alt: "",
-    width: 733,
+    width: 424,
     height: 550,
   },
   {
-    url: "/images/content/custom-graphics-slide-02.jpg",
+    url: "/images/content/decals-stickers-slide-02.jpg",
     alt: "",
-    width: 733,
+    width: 550,
+    height: 412,
+  },
+  {
+    url: "/images/content/decals-stickers-slide-03.jpg",
+    alt: "",
+    width: 424,
     height: 550,
   },
   {
-    url: "/images/content/custom-graphics-slide-03.jpg",
+    url: "/images/content/decals-stickers-slide-04.jpg",
     alt: "",
-    width: 412,
-    height: 550,
-  },
-  {
-    url: "/images/content/custom-graphics-slide-04.jpg",
-    alt: "",
-    width: 733,
+    width: 584,
     height: 550,
   },
 ];

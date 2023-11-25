@@ -13,7 +13,7 @@ const WallGraphics = () => {
           <a>
             <Item title="Branding">
               <picture>
-                <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
+                <source srcSet="/images/navigation/mobile/wall-graphics-branding.jpg" media="(max-width: 768px)" />
                 <img src="/images/navigation/wall-graphics-branding.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>
@@ -23,7 +23,7 @@ const WallGraphics = () => {
           <a>
             <Item title="Decor">
               <picture>
-                <source srcSet="/images/navigation/mobile/window-frost-privacy-film.jpg" media="(max-width: 768px)" />
+                <source srcSet="/images/navigation/mobile/wall-graphics-decor.jpg" media="(max-width: 768px)" />
                 <img src="/images/navigation/wall-graphics-decor.jpg" alt="" width="348" height="499" />
               </picture>
             </Item>

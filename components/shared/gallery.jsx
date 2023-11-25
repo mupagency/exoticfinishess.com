@@ -72,10 +72,12 @@ const Gallery = ({ images = [] }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="absolute top-1/2 -left-8 -right-8 text-neutral-400">
-        <CustomArrowLeft handler={handlePrevSlide} />
-        <CustomArrowRight handler={handleNextSlide} />
-      </div>
+      {images.length > 1 && (
+        <div className="absolute top-1/2 -left-8 -right-8 text-neutral-400">
+          <CustomArrowLeft handler={handlePrevSlide} />
+          <CustomArrowRight handler={handleNextSlide} />
+        </div>
+      )}
     </div>
   );
 };
