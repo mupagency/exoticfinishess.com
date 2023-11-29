@@ -1,7 +1,7 @@
 const about = () => {
   return (
     <div className="relative">
-      <div className="max-w-7xl mx-auto min-h-[calc(100vh-60px)] grid place-content-center">
+      <div className="max-w-7xl mx-auto min-h-[calc(100vh-61px)] grid place-content-center">
         <div className="lg:flex px-4 lg:px-12">
           <div className="flex-none pr-8 my-8">
             <h2 className="uppercase text-4xl lg:text-7xl font-acuminpro font-black">

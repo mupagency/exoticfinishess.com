@@ -1,10 +1,10 @@
-import MainLayout from "components/layouts/main";
+import { SimpleLayout } from "components/layouts/main";
 import ContactSection from "components/sections/contact";
 
 const ContactPage = () => {
   return (
-    <MainLayout>
-      <div className="relative grid items-center min-h-[calc(100vh-60px)]">
+    <SimpleLayout>
+      <div className="relative grid items-center min-h-[calc(100vh-61px)]">
         <div className="relative z-10">
           <div className="mb-8"></div>
           <ContactSection />
@@ -17,7 +17,7 @@ const ContactPage = () => {
           <img src="/images/icons/icon-ring.png" alt="floating ring" width={49} height={49} />
         </div>
       </div>
-    </MainLayout>
+    </SimpleLayout>
   );
 };
 

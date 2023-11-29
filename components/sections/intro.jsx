@@ -15,7 +15,7 @@ const IntroSection = () => {
         <img src="/images/icons/icon-ring-gold.png" alt="floating ring" width={49} height={49} />
       </div>
 
-      <div className="relative min-h-[64vh] md:min-h-[calc(100vh-60px)] grid place-content-center px-4 z-0">
+      <div className="relative min-h-[64vh] md:min-h-[calc(100vh-61px)] grid place-content-center px-4 z-0">
         <div className="relative mx-auto max-w-6xl z-10">
           <div className="mx-auto max-w-5xl flex flex-col gap-4 items-center pointer-events-auto mb-16">
             <Link href="/wall-graphics/">

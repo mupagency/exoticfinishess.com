@@ -2,9 +2,11 @@ import Link from "next/link";
 import { HeadlineGroup } from "components/shared/headlines";
 import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
 
-const DecalsStickers = () => {
+const DecalsStickers = ({ fullHeight = false }) => {
+  const mainClass = fullHeight ? "min-h-[calc(100vh-61px)]" : "";
+
   return (
-    <div>
+    <div className={`flex flex-col ${mainClass}`}>
       <div className="text-white px-4 py-6 bg-stone-900">
         <HeadlineGroup category="services" title="DECALS / STICKERS" />
       </div>

@@ -4,7 +4,7 @@ import WindowGraphics from "components/shared/window-graphics";
 const WallGraphicsPage = () => {
   return (
     <SimpleLayout>
-      <WindowGraphics />
+      <WindowGraphics fullHeight={true} />
     </SimpleLayout>
   );
 };

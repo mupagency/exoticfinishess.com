@@ -1,10 +1,10 @@
-import MainLayout from "components/layouts/main";
+import { SimpleLayout } from "components/layouts/main";
 import AboutSection from "components/sections/about";
 
 const AboutPage = () => {
   return (
-    <MainLayout>
-      <div className="relative grid items-center min-h-[calc(100vh-60px)] bg-primary">
+    <SimpleLayout>
+      <div className="relative grid items-center min-h-[calc(100vh-61px)] bg-primary">
         <div className="relative z-10">
           <AboutSection />
         </div>
@@ -16,7 +16,7 @@ const AboutPage = () => {
           <img src="/images/icons/icon-ring.png" alt="floating ring" width={49} height={49} />
         </div>
       </div>
-    </MainLayout>
+    </SimpleLayout>
   );
 };
 

@@ -4,7 +4,7 @@ import DecalsStickers from "components/shared/decals-stickers";
 const DecalsStickersPage = () => {
   return (
     <SimpleLayout>
-      <DecalsStickers />
+      <DecalsStickers fullHeight={true} />
     </SimpleLayout>
   );
 };
