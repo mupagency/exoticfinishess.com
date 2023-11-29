@@ -138,7 +138,7 @@ const Header = () => {
             <div className="max-w-[1520px] mx-auto overflow-x-auto touch-pan-x whitespace-nowrap px-8">
               <ul className="text-center leading-none text-white uppercase text-xs lg:text-lg">
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/visual-graphics/window-wall-graphics/">
+                  <Link href="/wall-graphics/branding/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Branding
                       <span></span>
@@ -146,7 +146,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
-                  <Link href="/visual-graphics/commercial-vehicle-wraps/">
+                  <Link href="/wall-graphics/decor/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
                       Decor
                       <span></span>
