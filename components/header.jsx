@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const NONAV = 0;
 const WALL = 1;
 const WINDOW = 2;
-const DECALS = 3;
+// const DECALS = 3;
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -122,14 +122,13 @@ const Header = () => {
                 Window Graphics
               </h3>
             </div>
-            <div
-              onClick={() => handleNavType(DECALS)}
-              className={`${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
-            >
-              <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
-                Decals / Stickers
-              </h3>
-            </div>
+            <Link href="/decals-stickers/">
+              <div className={`${pathname.startsWith("/decals-stickers") && "text-primary"}`}>
+                <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
+                  Decals / Stickers
+                </h3>
+              </div>
+            </Link>
           </div>
         )}
 
