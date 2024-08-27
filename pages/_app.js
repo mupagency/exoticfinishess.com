@@ -14,18 +14,18 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vinyl graphics and films - Vehicle customization</title>
+        <title>Vinyl graphics and films</title>
         <link rel="canonical" href={canonical_url} />
         <meta name="author" content="Exotic Finishess" />
         <meta
           name="description"
-          content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
+          content="Explore our vinyl graphics specializing in custom designs for events, branding, decals, and more. We elevate your visuals with durable materials that provide vibrant colors and lasting impact. Ideal for personal and commercial applications, our innovative solutions will transform your space. Elevate your brand with us today!"
         />
-        <meta property="og:title" content="Vinyl graphics and films - Vehicle customization" />
+        <meta property="og:title" content="Vinyl graphics and films" />
         <meta property="og:image" content="" />
         <meta
           property="og:description"
-          content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
+          content="Explore our vinyl graphics specializing in custom designs for events, branding, decals, and more. We elevate your visuals with durable materials that provide vibrant colors and lasting impact. Ideal for personal and commercial applications, our innovative solutions will transform your space. Elevate your brand with us today!"
         />
         <meta property="og:url" content={canonical_url} />
         <meta property="og:type" content="website" />
@@ -33,14 +33,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:creator" content="" />
-        <meta name="twitter:title" content="Vinyl graphics and films - Vehicle customization" />
+        <meta name="twitter:title" content="Vinyl graphics and films" />
         <meta
           name="twitter:description"
-          content="What would you like to wrap or protect with our custom vinyl skins? For home, offices, Windows and walls, cars, Xpel ppf, ceramic, comercial wraps … give us a call. Window and wall graphics. Xpel - Paint protection film (PPF)"
+          content="Explore our vinyl graphics specializing in custom designs for events, branding, decals, and more. We elevate your visuals with durable materials that provide vibrant colors and lasting impact. Ideal for personal and commercial applications, our innovative solutions will transform your space. Elevate your brand with us today!"
         />
         <meta name="twitter:url" content={canonical_url} />
         <meta name="twitter:image" content="" />
-        <meta name="twitter:image:alt" content="Vinyl graphics and films - Vehicle customization" />
+        <meta name="twitter:image:alt" content="Vinyl graphics and films" />
 
         <link rel="icon" href="/favicon.ico?v=1.0.1" />
       </Head>
