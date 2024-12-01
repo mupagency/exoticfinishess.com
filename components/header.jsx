@@ -3,6 +3,7 @@ import { MinusIcon, PlusIcon } from "components/shared/icons";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import useTranslation from "hooks/useTranslation";
 
 const NONAV = 0;
 const WALL = 1;
@@ -12,6 +13,8 @@ const WINDOW = 2;
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
   const [navType, setNavType] = useState(NONAV);
+
+  const { t } = useTranslation();
 
   const router = useRouter();
   const { pathname = "" } = router;
@@ -66,7 +69,7 @@ const Header = () => {
                     className={`relative ${pathname.startsWith("/wall-graphics") && "text-primary"}`}
                   >
                     <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
-                      Wall Graphics
+                      {t("homepage.intro.nav.wallGraphics")}
                     </h3>
                     {pathname.startsWith("/wall-graphics") && (
                       <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
@@ -77,7 +80,7 @@ const Header = () => {
                     className={`relative ${pathname.startsWith("/window-graphics") && "text-primary"}`}
                   >
                     <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
-                      Window Graphics
+                      {t("homepage.intro.nav.windowGraphics")}
                     </h3>
                     {pathname.startsWith("/window-graphics") && (
                       <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
@@ -86,7 +89,7 @@ const Header = () => {
                   <Link href="/decals-stickers/">
                     <li className={`relative ${pathname.startsWith("/decals-stickers") && "text-primary"}`}>
                       <h3 className="cursor-pointer text-xl hover:text-primary leading-none uppercase px-4 py-5">
-                        Decals / Stickers
+                        {t("homepage.intro.nav.decalsStickers")}
                       </h3>
                       {pathname.startsWith("/decals-stickers") && (
                         <div className="absolute bottom-0 left-0 right-0 h-0 w-0 mx-auto border-solid border-b-primary border-b-8 border-x-transparent border-x-8 border-t-0"></div>
@@ -112,20 +115,22 @@ const Header = () => {
               onClick={() => handleNavType(WALL)}
               className={`${pathname.startsWith("/visual-graphics") && "text-primary"}`}
             >
-              <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">Wall Graphics</h3>
+              <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
+                {t("homepage.intro.nav.wallGraphics")}
+              </h3>
             </div>
             <div
               onClick={() => handleNavType(WINDOW)}
               className={`${pathname.startsWith("/vehicle-customization") && "text-primary"}`}
             >
               <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
-                Window Graphics
+                {t("homepage.intro.nav.windowGraphics")}
               </h3>
             </div>
             <Link href="/decals-stickers/">
               <div className={`${pathname.startsWith("/decals-stickers") && "text-primary"}`}>
                 <h3 className="text-sm hover:text-primary leading-none p-4 cursor-pointer text-current">
-                  Decals / Stickers
+                  {t("homepage.intro.nav.decalsStickers")}
                 </h3>
               </div>
             </Link>
@@ -139,7 +144,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/wall-graphics/branding/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Branding
+                      {t("homepage.wallGraphics.items.branding")}
                       <span></span>
                     </div>
                   </Link>
@@ -147,7 +152,7 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/wall-graphics/decor/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Decor
+                      {t("homepage.wallGraphics.items.decor")}
                       <span></span>
                     </div>
                   </Link>
@@ -164,7 +169,7 @@ const Header = () => {
                   <Link href="/wall-graphics/branding/">
                     <div className={`${pathname.includes("branding") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Branding
+                        {t("homepage.wallGraphics.items.branding")}
                         <span></span>
                       </div>
                     </div>
@@ -175,7 +180,7 @@ const Header = () => {
                   <Link href="/wall-graphics/decor/">
                     <div className={`${pathname.includes("decor") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Decor
+                        {t("homepage.wallGraphics.items.decor")}
                         <span></span>
                       </div>
                     </div>
@@ -193,14 +198,16 @@ const Header = () => {
                 {/* custom graphics */}
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/window-graphics/custom-graphics/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">Custom Graphics</div>
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
+                      {t("homepage.windowGraphics.items.customGraphics")}
+                    </div>
                   </Link>
                 </li>
                 {/* perforated window graphics */}
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/window-graphics/perforated-window-graphics/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Perforated Window Graphics
+                      {t("homepage.windowGraphics.items.perforatedWindowGraphics")}
                     </div>
                   </Link>
                 </li>
@@ -208,14 +215,16 @@ const Header = () => {
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/window-graphics/window-frost-privacy-film/">
                     <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
-                      Window Frost Privacy Film
+                      {t("homepage.windowGraphics.items.windowFrostPrivacyFilm")}
                     </div>
                   </Link>
                 </li>
                 {/* solar window film */}
                 <li className="inline-block min-w-[110px] lg:min-w-[220px] align-top">
                   <Link href="/window-graphics/solar-window-film/">
-                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">Solar Window Film</div>
+                    <div className="p-3 lg:p-4 hover:text-primary text-current cursor-pointer">
+                      {t("homepage.windowGraphics.items.solarWindowFilm")}
+                    </div>
                   </Link>
                 </li>
               </ul>
@@ -231,7 +240,8 @@ const Header = () => {
                   <Link href="/window-graphics/custom-graphics/">
                     <div className={`${pathname.includes("custom-graphics") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Custom <br /> Graphics
+                        {/* Custom <br /> Graphics */}
+                        {t("homepage.windowGraphics.items.customGraphics")}
                       </div>
                     </div>
                   </Link>
@@ -241,7 +251,8 @@ const Header = () => {
                   <Link href="/window-graphics/perforated-window-graphics/">
                     <div className={`${pathname.includes("perforated-window-graphics") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Perforated Window <br /> Graphics
+                        {/* Perforated Window <br /> Graphics */}
+                        {t("homepage.windowGraphics.items.perforatedWindowGraphics")}
                       </div>
                     </div>
                   </Link>
@@ -251,7 +262,8 @@ const Header = () => {
                   <Link href="/window-graphics/solar-window-film/">
                     <div className={`${pathname.includes("solar-window-film") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Solar Window <br /> Film
+                        {/* Solar Window <br /> Film */}
+                        {t("homepage.windowGraphics.items.solarWindowFilm")}
                       </div>
                     </div>
                   </Link>
@@ -261,7 +273,8 @@ const Header = () => {
                   <Link href="/window-graphics/window-frost-privacy-film/">
                     <div className={`${pathname.includes("window-frost-privacy-film") && "text-black"}`}>
                       <div className="p-3 lg:p-4 hover:text-black text-current cursor-pointer">
-                        Window Frost <br /> Privacy Film
+                        {/* Window Frost <br /> Privacy Film */}
+                        {t("homepage.windowGraphics.items.windowFrostPrivacyFilm")}
                       </div>
                     </div>
                   </Link>
@@ -280,6 +293,8 @@ const Header = () => {
 export default Header;
 
 export const ModalHeader = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-primary fixed inset-0 z-20">
       <div className="h-screen flex place-items-center nav-section">
@@ -289,35 +304,35 @@ export const ModalHeader = () => {
               <li className="cursor-pointer mb-2 font-acuminpro">
                 <Link href="/">
                   <h3 className="min-h-[46px] md:min-h-[72px] text-3xl md:text-6xl hover:text-4xl hover:md:text-7xl font-black transition-all origin-center">
-                    Home
+                    {t("header.modal.home")}
                   </h3>
                 </Link>
               </li>
               <li className="cursor-pointer mb-2 font-acuminpro">
                 <Link href="/contact">
                   <h3 className="min-h-[46px] md:min-h-[72px] text-3xl md:text-6xl hover:text-4xl hover:md:text-7xl font-black transition-all origin-center">
-                    Contact
+                    {t("header.modal.contact")}
                   </h3>
                 </Link>
               </li>
               <li className="cursor-pointer mb-6 font-acuminpro">
                 <Link href="/about">
                   <h3 className="min-h-[46px] md:min-h-[72px] text-3xl md:text-6xl hover:text-4xl hover:md:text-7xl font-black transition-all origin-center">
-                    About
+                    {t("header.modal.about")}
                   </h3>
                 </Link>
               </li>
               <li className="cursor-pointer">
                 <Link href="/pdf/Privacy-Policy.pdf">
                   <a target="_blank">
-                    <h4 className="text-base md:text-2xl hover:underline mb-2">Privacy Policy</h4>
+                    <h4 className="text-base md:text-2xl hover:underline mb-2">{t("header.modal.privacy")}</h4>
                   </a>
                 </Link>
               </li>
               <li className="cursor-pointer">
                 <Link href="/pdf/Terms-Conditions.pdf">
                   <a target="_blank">
-                    <h4 className="text-base md:text-2xl hover:underline mb-2">Terms and Conditions</h4>
+                    <h4 className="text-base md:text-2xl hover:underline mb-2"> {t("header.modal.terms")}</h4>
                   </a>
                 </Link>
               </li>

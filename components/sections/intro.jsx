@@ -1,7 +1,10 @@
 import Button from "components/shared/button";
 import Link from "next/link";
+import useTranslation from "hooks/useTranslation";
 
 const IntroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-black text-white relative">
       <div className="absolute inset-0 z-0">
@@ -20,17 +23,17 @@ const IntroSection = () => {
           <div className="mx-auto max-w-5xl flex flex-col gap-4 items-center pointer-events-auto">
             <Link href="/wall-graphics/">
               <a>
-                <Button> Wall Graphics </Button>
+                <Button> {t("homepage.intro.nav.wallGraphics")} </Button>
               </a>
             </Link>
             <Link href="/window-graphics/">
               <a>
-                <Button> Window Graphics </Button>
+                <Button> {t("homepage.intro.nav.windowGraphics")} </Button>
               </a>
             </Link>
             <Link href="/decals-stickers/">
               <a>
-                <Button> Decals / Stickers </Button>
+                <Button> {t("homepage.intro.nav.decalsStickers")} </Button>
               </a>
             </Link>
           </div>

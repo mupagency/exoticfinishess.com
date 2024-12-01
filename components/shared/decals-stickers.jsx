@@ -1,19 +1,21 @@
 import Link from "next/link";
 import { HeadlineGroup } from "components/shared/headlines";
 import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
+import useTranslation from "hooks/useTranslation";
 
 const DecalsStickers = ({ fullHeight = false }) => {
+  const { t } = useTranslation();
   const mainClass = fullHeight ? "min-h-[calc(100vh-61px)]" : "";
 
   return (
     <div className={`flex flex-col ${mainClass}`}>
       <div className="text-white px-4 py-6 bg-stone-900">
-        <HeadlineGroup category="services" title="DECALS / STICKERS" />
+        <HeadlineGroup category={t("homepage.decalsStickers.category")} title={t("homepage.decalsStickers.title")} />
       </div>
       <NavWrap>
         <Link href="/decals-stickers/decals-stickers/">
           <a>
-            <Item title="Decals / stickers">
+            <Item title={t("homepage.decalsStickers.items.decalsStickers")}>
               <picture>
                 <source srcSet="/images/navigation/mobile/decals-stickers.jpg" media="(max-width: 768px)" />
                 <img

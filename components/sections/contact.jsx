@@ -91,7 +91,7 @@ const ContactSection = () => {
       <h2 className="font-acuminpro text-3xl uppercase text-center mb-8 md:mb-16 px-4">Order yours now!</h2>
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto md:px-4 mb-12 md:mb-24">
         <div>
-          <div className="md:rounded-md bg-primary py-8 px-4 md:px-6 lg:p-8 max-w-md">
+          <div className="md:rounded-md bg-primary py-8 px-4 md:px-6 lg:p-8 max-w-md mx-auto">
             <ul className="text-lg md:text-xl">
               <li className="flex gap-2 mb-6 items-center">
                 <div className="w-12 flex-none flex justify-center text-center">

@@ -1,18 +1,21 @@
 import Link from "next/link";
 import { HeadlineGroup } from "components/shared/headlines";
 import { NavWrap, NavItem as Item } from "components/shared/custom-nav";
+import useTranslation from "hooks/useTranslation";
 
 const WallGraphics = ({ fullHeight = false }) => {
+  const { t } = useTranslation();
+
   const mainClass = fullHeight ? "min-h-[calc(100vh-61px)]" : "";
   return (
     <div className={`flex flex-col ${mainClass}`}>
       <div className="text-white px-4 py-6 bg-stone-900">
-        <HeadlineGroup category="services" title="WALL GRAPHICS" />
+        <HeadlineGroup category={t("homepage.wallGraphics.category")} title={t("homepage.wallGraphics.title")} />
       </div>
       <NavWrap>
         <Link href="/wall-graphics/branding/">
           <a>
-            <Item title="Branding">
+            <Item title={t("homepage.wallGraphics.items.branding")}>
               <picture>
                 <source srcSet="/images/navigation/mobile/wall-graphics-branding.jpg" media="(max-width: 768px)" />
                 <img src="/images/navigation/wall-graphics-branding.jpg" alt="" width="348" height="499" />
@@ -22,7 +25,7 @@ const WallGraphics = ({ fullHeight = false }) => {
         </Link>
         <Link href="/wall-graphics/decor/">
           <a>
-            <Item title="Decor">
+            <Item title={t("homepage.wallGraphics.items.decor")}>
               <picture>
                 <source srcSet="/images/navigation/mobile/wall-graphics-decor.jpg" media="(max-width: 768px)" />
                 <img src="/images/navigation/wall-graphics-decor.jpg" alt="" width="348" height="499" />
