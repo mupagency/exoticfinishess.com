@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-export const defaultLocale = "es";
+export const defaultLocale = "en";
 export const locales = ["en", "es"];
 export const LanguageContext = createContext([]);
 
