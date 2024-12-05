@@ -7,11 +7,21 @@ export const LanguageContext = createContext([]);
 export const LanguageProvider = ({ children }) => {
   const [locale, setlocale] = useState(defaultLocale);
 
+  // const testLocale = (locale) => {
+  //   Object.defineProperty(navigator, "language", {
+  //     get: function () {
+  //       return locale;
+  //     },
+  //   });
+  // };
+
   // get the navigator language and set the locale
   useEffect(() => {
+    // testLocale("es");
+
     const navigatorLocale = navigator.language.split("-")[0];
     if (locales.includes(navigatorLocale)) {
-      // setlocale(navigatorLocale);
+      setlocale(navigatorLocale);
     }
   }, []);
 
