@@ -1,14 +1,16 @@
 import { HeadlineGroup } from "components/shared/headlines";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import useTranslation from "hooks/useTranslation";
 
 import "swiper/css";
 
 const ClientsSection = () => {
+  const { t } = useTranslation();
   return (
     <div className="px-4 mx-auto">
       <div className="mb12 md:mb-24">
-        <HeadlineGroup category="Our" title="Clients" />
+        <HeadlineGroup category={t("clients.category")} title={t("clients.title")} />
       </div>
       <Swiper autoplay={{ delay: 4000, disableOnInteraction: false }} loop={true} modules={[Autoplay]}>
         <SwiperSlide className="!h-auto">

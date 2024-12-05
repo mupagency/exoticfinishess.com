@@ -1,23 +1,19 @@
 import React from "react";
 import { HeadlineGroup } from "components/shared/headlines";
+import useTranslation from "hooks/useTranslation";
 
 const MachineSection = () => {
+  const { t } = useTranslation();
   return (
     <div className="relative bg-white z-30">
       <div className="relative px-4 mx-auto max-w-4xl">
         <div className="mb-12">
-          <HeadlineGroup category="Our machine" title="Mimaki" />
+          <HeadlineGroup category={t("machine.category")} title={t("machine.title")} />
         </div>
         <div className="text-lg mb-8 font-normal text-center">
-          <p>
-            We want the best for your business, that&apos;s why we have the best machine in the market to delivery high
-            quality graphic design installations.
-          </p>
+          <p>{t("machine.description")}</p>
           <br />
-          <p>
-            Also we offer design services if you don&apos;t know how to start. Our team can advise and accompany you
-            through the entire design and installation process.
-          </p>
+          <p>{t("machine.content")}</p>
         </div>
         <div className="mb-8">
           <img

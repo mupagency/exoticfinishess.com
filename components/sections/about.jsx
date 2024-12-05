@@ -1,4 +1,8 @@
-const about = () => {
+import useTranslation from "hooks/useTranslation";
+
+const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="relative">
       <div className="max-w-7xl mx-auto min-h-[calc(100vh-61px)] grid place-content-center">
@@ -10,15 +14,9 @@ const about = () => {
           </div>
           <div className="border-l-2 border-black pl-4 lg:pl-8 lg:py-8">
             <div className="text-base md:text-lg">
-              <p className="mb-4">
-                We are a group of humans dedicated to create, produce, and improve design projects. Our goal is to bring
-                life the ideas from Residential to Commercial works.
-              </p>
-              <p className="mb-4">
-                The way we work allows us to get into a project from the start, creating a concept, designing it and
-                producing it to finally install and bring the best experiences for you and/or your costumers.
-              </p>
-              <p>Our team is fully capacitated to execute and give you a guide through all the process.</p>
+              <p className="mb-4">{t("about.description")}</p>
+              <p className="mb-4">{t("about.content.p1")}</p>
+              <p>{t("about.content.p2")}</p>
             </div>
           </div>
         </div>
@@ -27,4 +25,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
