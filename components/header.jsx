@@ -54,7 +54,7 @@ const Header = () => {
                   <span className="w-10 py-2">
                     <Brand />
                   </span>
-                  Exotic Finishess
+                  <span className="uppercase font-black whitespace-nowrap text-lg leading-none">Exotic Finishess</span>
                 </div>
               </Link>
             </div>

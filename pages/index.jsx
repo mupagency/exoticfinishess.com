@@ -1,5 +1,5 @@
 import { SimpleLayout } from "components/layouts/main";
-import IntroSection from "components/sections/intro";
+import VideoSection from "components/sections/video";
 import WallGraphics from "components/shared/wall-graphics";
 import WindowGraphics from "components/shared/window-graphics";
 import DecalsStickers from "components/shared/decals-stickers";
@@ -7,7 +7,7 @@ import DecalsStickers from "components/shared/decals-stickers";
 const HomePage = () => {
   return (
     <SimpleLayout>
-      <IntroSection />
+      <VideoSection />
       <WallGraphics />
       <WindowGraphics />
       <DecalsStickers />
