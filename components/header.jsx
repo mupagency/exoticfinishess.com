@@ -48,13 +48,13 @@ const Header = () => {
       <header className="sticky top-0 z-50" id="header">
         <div className="bg-black border-b-primary border-b">
           <div className="relative mx-auto max-w-[1920px] flex items-center justify-between px-4 py-2 lg:py-0">
-            <div className="flex-none lg:w-52">
+            <div className="flex-none">
               <Link href="/">
                 <div className="flex items-center gap-2 text-white md:text-xl leading-none font-normal cursor-pointer">
-                  <span className="w-10 py-2">
+                  <span className="max-w-40 xl:max-w-48 block flex-none py-2">
                     <Brand />
                   </span>
-                  <span className="uppercase font-black whitespace-nowrap text-lg leading-none">Exotic Finishess</span>
+                  {/* <span className="uppercase font-black whitespace-nowrap text-lg leading-none">Exotic Finishess</span> */}
                 </div>
               </Link>
             </div>

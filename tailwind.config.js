@@ -14,7 +14,7 @@ module.exports = {
         myriadpro: ["MyriadPro", "sans-serif"],
       },
       colors: {
-        primary: "#fcd700",
+        primary: "#00b0e5",
       },
       letterSpacing: {
         extrawide: "0.6rem",
